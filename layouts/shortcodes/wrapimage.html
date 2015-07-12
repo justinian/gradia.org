@@ -1,0 +1,7 @@
+<img
+	src='{{ .Get "src" }}'
+	style="margin: 5px"
+	{{ if .Get "alt" }} alt='{{ .Get "alt" }}' {{ end }}
+	{{ if .Get "align" }} align='{{ .Get "align" }}' {{ end }}
+	{{ if .Get "width" }} width='{{ .Get "width" }}' {{ end }}
+	>

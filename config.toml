@@ -1,0 +1,7 @@
+baseurl = "http://gradia.org/"
+languageCode = "en-us"
+title = "Gradia"
+theme = "hugo-bootswatch"
+
+[taxonomies]
+category = "categories"
