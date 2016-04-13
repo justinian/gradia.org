@@ -3,8 +3,8 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-lg-6">
-			{{ range where .Data.Pages "Title" "Home" }}
+		<div class="col-lg-8">
+			{{ range where .Data.Pages "Title" "Welcome" }}
 			  {{ .Content }}
 			{{ end }}
 		</div>
