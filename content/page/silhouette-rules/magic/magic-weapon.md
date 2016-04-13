@@ -2,6 +2,7 @@
 title = "Magic Weapon"
 categories = []
 date = "Sun Jan 11 17:12:43 2009"
+draft = true
 +++
 
 

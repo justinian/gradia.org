@@ -2,6 +2,7 @@
 title = "Endure Elements"
 categories = []
 date = "Sun Jan 11 17:12:41 2009"
+draft = true
 +++
 
 

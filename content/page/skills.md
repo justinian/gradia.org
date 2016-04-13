@@ -2,10 +2,11 @@
 title = "Skills"
 categories = []
 date = "Sun Jan 11 16:20:19 2009"
+draft = true
 +++
 
-**True20 Skill List:**
-----
+## True20 Skill List
+
 * [Acrobatics]({{< relref "t20-skill-acrobatics.md" >}}) (Dex)
 * [Appraise]({{< relref "t20-skill-appraise.md" >}}) (Int)
 * [Athletics]({{< relref "t20-skill-athletics.md" >}}) (Str)
@@ -30,8 +31,9 @@ date = "Sun Jan 11 16:20:19 2009"
 * [Stealth]({{< relref "t20-skill-stealth.md" >}}) (Dex)
 * [Survival]({{< relref "t20-skill-survival.md" >}}) (Wis)
 * [Wrangle]({{< relref "t20-skill-wrangle.md" >}}) (Cha)
- * *Silhouette Skill List:**
-----
+
+## Silhouette Skill List
+
 * Animal Handling
 * Archery
 * Athletics
@@ -70,3 +72,4 @@ date = "Sun Jan 11 16:20:19 2009"
 * Throwing
 * Traps
 * Visual Art (Specific)
+

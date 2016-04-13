@@ -2,6 +2,7 @@
 title = "Comprehend Languages"
 categories = []
 date = "Sun Jan 11 17:12:44 2009"
+draft = true
 +++
 
 

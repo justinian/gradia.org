@@ -2,10 +2,11 @@
 title = "True20 Skills"
 categories = []
 date = "Sun Jan 11 17:00:18 2009"
+draft = true
 +++
 
-**Skill List:**
-----
+# Skill List
+
 * [Acrobatics]({{< relref "t20-skill-acrobatics.md" >}}) (Dex)
 * [Appraise]({{< relref "t20-skill-appraise.md" >}}) (Int)
 * [Athletics]({{< relref "t20-skill-athletics.md" >}}) (Str)

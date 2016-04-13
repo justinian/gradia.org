@@ -31,25 +31,5 @@ Some places you might want to look:
 
 * [Geography]({{< relref "geography.md" >}})
 * [Ways of Life]({{< relref "ways-of-life.md" >}})
-* [True20 Rules]({{< relref "true20-rules.md" >}})
-* [d20 Rules]({{< relref "d20-rules.md" >}})
-* [Silhouette Rules]({{< relref "silhouette-rules.md" >}})
 * [Peoples]({{< relref "peoples.md" >}}) of Gradia
 * [Characters]({{< relref "characters.md" >}}) of Gradia
-
-##  Systems Used 
-
-Gradia is meant to be system-independent, so that the setting can be used with
-more than one game system. In practice, Gradia was primarily used with the
-[d20](http://www.wizards.com/d20) system (and the [Dungeons
-& Dragons](http://www.wizards.com/dnd) game) during its
-conception, and most rules given on this site will be for d20. (See [d20
-Rules]({{< relref "d20-rules.md" >}}) for pages containing d20-specific rules.)
-Most games we play in Gradia these days, however, use the [Silhouette](http://www.dp9.com)
-system, and Silhouette rules are being added
-to the site as well. (See [Silhouette Rules]({{< relref "silhouette-rules.md"
->}}) for Gradia-specific Silhouette rules.)
-
-EDIT: We're trying out the [True20](http://true20.com/)
-rules as a compromise between Silhouette flexibility and d20 polish. Check out
-[True20_Rules]({{< relref "true20-rules.md" >}}) for more.

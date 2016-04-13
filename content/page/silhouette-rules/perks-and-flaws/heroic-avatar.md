@@ -2,6 +2,7 @@
 title = "Heroic Avatar"
 categories = []
 date = "Sun Jan 11 17:12:44 2009"
+draft = true
 +++
 
 
