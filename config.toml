@@ -2,6 +2,7 @@ baseurl = "http://gradia.org/"
 languageCode = "en-us"
 title = "Gradia"
 theme = "hugo-bootswatch"
+preserveTaxonomyNames = true
 
 [taxonomies]
 category = "categories"
