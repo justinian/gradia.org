@@ -4,8 +4,11 @@ categories = []
 date = "Tue Nov 25 12:22:11 2008"
 +++
 
-What of those people whose names echo down through time? History, legend and record differ, but the true stories of these heroes and villains are now lost. In Gradia, the myth becomes the truth.
-  * [Morcuru]({{< relref "morcuru.md" >}}), Prophet of Flame
+What of those people whose names echo down through time? History, legend and
+record differ, but the true stories of these heroes and villains are now lost.
+In Gradia, the myth becomes the truth.
+
+* [Morcuru]({{< relref "morcuru.md" >}}), Prophet of Flame
 * [Kor]({{< relref "kor.md" >}}), Mongrel Champion
 * [Jayden]({{< relref "jayden.md" >}}), Lady of the Sun
 * [Dominic]({{< relref "dominic.md" >}}), Oracle for Hire
