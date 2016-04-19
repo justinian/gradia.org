@@ -179,4 +179,3 @@ CR
 </b>
 : As base creature, +4.
 
-#  Children 

@@ -22,4 +22,3 @@ The pantheon of the current ruling faction of the Xar is monotheistic, worshippi
 But it was not always this way, and the people now known as the Xar once revered different, primative gods that have not been entirely forgotten, and are still worshipped in secret among the Hive.
 </p>
 
-#  Children 

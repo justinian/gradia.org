@@ -181,4 +181,3 @@ The Master at Arms is an artisan of combat, skilled at turning any thing he hold
 
 - Gain a dodge bonus to armor class based on weapon size. If the weapon is one or more sizes smaller that the Master at Arms, +1. If it is the same size category, +2. If it is one size larger, +3. If an opponent misses the character as a result of this bonus ONLY, the weapon is struck and takes damage as if it were the target of the initial attack.
 
-#  Children 

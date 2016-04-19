@@ -50,5 +50,3 @@ date = "Sun Mar  8 19:50:23 2015"
 
  
 - The Kelsheen do not use money of any kind. They trade with one another, and their system of exchange changes as often as their location. Kelsheen share everything with one another, often exchanging personal gifts and trinkets.
-
-#  Children 
