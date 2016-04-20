@@ -1,0 +1,21 @@
+image: publysher/hugo
+
+cache:
+    paths:
+    - /var/cache/apt/archives/
+
+before_script:
+  - apt-get update
+  - apt-get -qq install git-core
+  - git config --global user.name "Justin C. Miller"
+  - git config --global user.email "justin@devjustinian.com"
+  - git config --list
+
+pages:
+  script:
+  - hugo
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
