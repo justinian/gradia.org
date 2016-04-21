@@ -4,8 +4,11 @@ categories = ["Geography"]
 date = "Mon Jan  6 00:47:05 2014"
 +++
 
-[<img src="/files/empire-of-narin/map-narin.png"  align="right" width="400">](/files/empire-of-narin/map-narin.png)
-[<img src="/files/empire-of-narin/flag-narin.png"  align="right" width="200">](/files/empire-of-narin/flag-narin.png)
+[<img src="/files/empire-of-narin/map-narin.png"  align="right"
+width="400">](/files/empire-of-narin/map-narin.png)
+
+[<img src="/files/empire-of-narin/flag-narin.png"  align="right"
+width="200">](/files/empire-of-narin/flag-narin.png)
 
 Narin was once the greatest empire in all of Gradia. The lands Narin claimed as
 its own stretched at one time from the [Lorimar Sea]({{< relref
@@ -94,8 +97,9 @@ times throughout history.
 
 ##  Emperor of Narin 
 
-{{< wrapimage src="{#!wiki sidebar
-__**Arlor and the Dragon**__
+{{% sidebar %}}
+
+#### Arlor and the Dragon
 
 There's a legend in Narin that Arlor took the power to unite the surrounding
 lands from the red dragon Nadarathir. Nadaranthir, the legend goes, had been
@@ -105,7 +109,8 @@ dragon.
 
 The red of the Imperial flag and state crests is a symbol of the Emperor's
 power, taken from a red dragon.
-"   >
+
+{{% /sidebar %}}
 
 The Emperor of Narin nominally has absolute power over the empire. The office
 or institution of the Emperor of Narin is often referred to as "The Dahlia
