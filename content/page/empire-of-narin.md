@@ -4,11 +4,8 @@ categories = ["Geography"]
 date = "Mon Jan  6 00:47:05 2014"
 +++
 
-[<img src="/files/empire-of-narin/map-narin.png"  align="right"
-width="400">](/files/empire-of-narin/map-narin.png)
-
-[<img src="/files/empire-of-narin/flag-narin.png"  align="right"
-width="200">](/files/empire-of-narin/flag-narin.png)
+{{< wrapimage src="/files/empire-of-narin/map-narin.png" align="right" width="400" >}}
+{{< wrapimage src="/files/empire-of-narin/flag-narin.png" align="right" width="200" >}}
 
 Narin was once the greatest empire in all of Gradia. The lands Narin claimed as
 its own stretched at one time from the [Lorimar Sea]({{< relref
@@ -32,7 +29,7 @@ first nations of Man.
 
 ##  The First Empire 
 
-[<img src="/files/empire-of-narin/map-empire-height.jpg"  align="right" width="400">](/files/empire-of-narin/map-empire-height.jpg)
+{{< wrapimage src="/files/empire-of-narin/map-empire-height.jpg"  align="right" width="400">}}
 
 The first reign of the Empire of Narin is defined by historians to begin with
 reign of King Arlor II of Narin. At the age of 16, Arlor led the armies of
