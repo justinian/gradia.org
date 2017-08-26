@@ -4,7 +4,7 @@ categories = []
 date = "Sat Aug 10 10:46:05 2013"
 +++
 
-"Long, long ago, in the [Age of War]({{< relref "age-of-war.md" >}}), the
+"Long, long ago, in the [Age of War]({{< missing "age-of-war.md" >}}), the
 _Powers_ walked the land, feuding as only gods can feud. Some were strong, and
 their battles tore the earth apart. Some were gentle, the compassionate tenders
 of all that grow. Some were distant, powerful beyond comprehension. Some were
@@ -36,5 +36,5 @@ zealot wronged."
 * [The Othalian Crusade]({{< relref "pantheon-of-othalia.md" >}})
 * [Shamanic Traditions of the Kelsheen Nomads]({{< relref "pantheon-of-the-kelsheen.md" >}})
 * [The God-Queen Xar]({{< relref "pantheon-of-xar.md" >}})
-* [The Mandates of Rygalta]({{< relref "pantheon-of-rygalta.md" >}})
-* [Mar'Shandi and the Sea]({{< relref "pantheon-of-the-marshandi.md" >}})
+* [The Mandates of Rygalta]({{< missing "pantheon-of-rygalta.md" >}})
+* [Mar'Shandi and the Sea]({{< missing "pantheon-of-the-marshandi.md" >}})

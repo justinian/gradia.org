@@ -11,4 +11,4 @@ human civilization; though it is not only humans that inhabit the region.
 Eindonallan to the east is a lengendary elven city-state of wonders
 
  * [Corin]({{< relref "corin.md" >}})
- * [HestaLorimar]({{< relref "hestalorimar.md" >}})
+ * [Hesta'Lorimar]({{< relref "hesta-lorimar.md" >}})

@@ -4,9 +4,7 @@ categories = ["Geography"]
 date = "Mon Jan 16 13:39:24 2012"
 +++
 
-[<img src="/static/files/northern-gradia/map-northerngradia.png"
-align="right" width="400">]({{< relref
-"/static/files/northern-gradia/map-northerngradia-png.md" >}})
+{{% img src="files/northern-gradia/map-northerngradia.png" %}}
 
 The northern regions of the great continent are home so some of the most
 wonderous advancements of human science and magic, as well as home to some of

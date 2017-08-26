@@ -1,7 +1,8 @@
-<div class="panel panel-info pull-right col-md-4">
-	{{ if .Inner }}
-	<div class="panel-body">
-		{{ .Inner }}
-	</div>
+<div class="panel sidebar">
+	{{ with .Get 0 }}
+  <h4 class="panel-title">{{ . }}</h4>
+	{{ end }}
+	{{ with .Inner }}
+  <div class="card-body">{{ . }}</div>
 	{{ end }}
 </div>

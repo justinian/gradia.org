@@ -61,7 +61,7 @@ lands are home to the great Elven city of [Eindonallan]({{< relref
 
 Further south, around the southeastern edge of the Lorimar Sea, lie the city of
 [Galen's Crossing]({{< relref "galen-s-crossing.md" >}}), and the [Great Forest
-of Ethuin]({{< relref "great-forest-of-ethuin.md" >}}). Travelling any further
+of Ethuin]({{< missing "great-forest-of-ethuin.md" >}}). Travelling any further
 south becomes increasingly treacherous, as one gets closer to the volcanic
 [Cradle of Darkness]({{< relref "cradle-of-darkness.md" >}}), which is said to
 be the birthplace of evil. The [Rookspine Mountains]({{< relref

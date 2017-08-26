@@ -13,11 +13,10 @@ relref "empire-of-narin.md" >}}) on the Anandies river.
 #  History 
 
 As the first tribes of men migrated north from the Lorimar Sea to settle in
-what is now [Narin]({{< relref "empire-of-narin.md" >}}), many smaller groups
-broke off to remain in the beautiful landscapes of what has become the Kingdom
-of Corin. Small fiefdoms eventually sprung up from agricultural and fishing
-settlements, becoming a loose-knit whole that led to a history of very
-republican Corin sovereignty. 
+what is now Narin, many smaller groups broke off to remain in the beautiful
+landscapes of what has become the Kingdom of Corin. Small fiefdoms eventually
+sprung up from agricultural and fishing settlements, becoming a loose-knit
+whole that led to a history of very republican Corin sovereignty. 
 
 ##  Under Narin Rule 
 
@@ -67,9 +66,9 @@ Vandrail died, returning Corin rule to the House of Dunkirk.
 #  Characters of Note 
 
 * [Era: Empire in Decline]({{< relref "era-empire-in-decline.md" >}})
- * [William of Dunkirk]({{< relref "william-of-dunkirk.md" >}})
-* [Era: The Sun Schism]({{< relref "era-the-sun-schism.md" >}})
+ * [William of Dunkirk]({{< missing "william-of-dunkirk.md" >}})
+* [Era: The Sun Schism]({{< missing "era-the-sun-schism.md" >}})
  * [Argali]({{< relref "argali.md" >}})
- * [Vergonne]({{< relref "vergonne.md" >}})
- * [Feawen]({{< relref "feawen.md" >}})
+ * [Vergonne]({{< missing "vergonne.md" >}})
+ * [Feawen]({{< missing "feawen.md" >}})
 

@@ -1,8 +1,8 @@
 baseurl = "http://gradia.org/"
 languageCode = "en-us"
 title = "Gradia"
-theme = "hugo-bootswatch"
 preserveTaxonomyNames = true
+copyright = "© 2000-2017 Justin C. Miller and the Gradia contributors. <a href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Some rights reserved</a>."
 
 [taxonomies]
 category = "categories"

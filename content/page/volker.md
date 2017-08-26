@@ -4,10 +4,8 @@ categories = ["Characters"]
 date = "Tue Nov 25 12:22:11 2008"
 +++
 
-Volker is one of a long tradition of [Weirdwalkers]({{< relref "weirdwalker.md"
+Volker is one of a long tradition of [Weirdwalkers]({{< missing "weirdwalker.md"
 >}}), trained by the great Weirdwalker known as Kveldulf.
-
-<!--more-->
 
 ###  Silhouette Stats 
 

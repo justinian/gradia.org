@@ -74,9 +74,9 @@ Eindonallan, and see the magical city in all its beauty once more."
 ##  Origin 
 
 Eindonallan was founded as the second city of the great Elven Kingdom that
-stretched south to the [Great Forest of Euthin]({{< relref
+stretched south to the [Great Forest of Euthin]({{< missing
 "great-forest-of-euthin.md" >}}) in the days before Men. As the forests receded
-and the lands rose in the [Age of Light]({{< relref "age-of-light.md" >}}),
+and the lands rose in the [Age of Light]({{< missing "age-of-light.md" >}}),
 Eindonallan was separated from the rest of the great Kingdom, and through elven
 magic the city became more secluded in the forest. Safe from being found by
 Men, the elves of Eindonallan often took pilgrimages into the lands of Men,

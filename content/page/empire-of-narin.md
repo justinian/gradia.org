@@ -1,11 +1,14 @@
-+++
-title = "Empire of Narin"
-categories = ["Geography"]
-date = "Mon Jan  6 00:47:05 2014"
-+++
+---
+title: "Empire of Narin"
+categories: ["Geography"]
+description: "Gradia is a low-magic fantasy setting"
+---
 
-{{< wrapimage src="/files/empire-of-narin/map-narin.png" align="right" width="400" >}}
-{{< wrapimage src="/files/empire-of-narin/flag-narin.png" align="right" width="200" >}}
+
+{{< img src="/files/empire-of-narin/map-narin.png" >}}
+
+{{< img src="/files/empire-of-narin/flag-narin.png" class="right"
+    caption="Flag of the Empire" >}}
 
 Narin was once the greatest empire in all of Gradia. The lands Narin claimed as
 its own stretched at one time from the [Lorimar Sea]({{< relref
@@ -16,20 +19,20 @@ relref "illyria.md" >}}).
 Narin has always been an enterprising and imperialistic country, and there have
 been several reigns of the Empire of Narin. The capital of Narin is Narinth, on
 the Anandies river, to the south of the forked tounge of the [Griffonpeak
-Mountains]({{< relref "griffonpeak-mountains.md" >}}).
+Mountains]({{< missing "griffonpeak-mountains.md" >}}).
 
 #  History 
 
 The history of Narin streches back to the very dawn of human history during the
-[Age of Light]({{< relref "age-of-light.md" >}}), when the forests began
-receding from the sea. Nestled between the [Griffonpeak Mountains]({{< relref
-"griffonpeak-mountains.md" >}}) to the north, and the Anandies river to the
-south, the land of Narin was the fertile and rainy home of one of the very
-first nations of Man.
+[Age of Light]({{< missing "age-of-light.md" >}}), when the forests began
+receding from the sea. Nestled between the Griffonpeak Mountains to the north,
+and the Anandies river to the south, the land of Narin was the fertile and
+rainy home of one of the very first nations of Man.
 
 ##  The First Empire 
 
-{{< wrapimage src="/files/empire-of-narin/map-empire-height.jpg"  align="right" width="400">}}
+{{< img src="/files/empire-of-narin/map-empire-height.jpg" class="right"
+    caption="Map of the empire at its height" >}}
 
 The first reign of the Empire of Narin is defined by historians to begin with
 reign of King Arlor II of Narin. At the age of 16, Arlor led the armies of
@@ -38,9 +41,8 @@ against other settlements north of the mountains. Arlor claimed that Narin was
 the original kingdom of Man, and that all men owed fealty to him. After a long
 and successful campaign, Arlor returned to Narinth for good 10 years later, and
 proclaimed himself Emperor. His empire comprised of everything west of the
-[Griffonpeak Mountains]({{< relref "griffonpeak-mountains.md" >}}), east to the
-Forest of [Eindonallan]({{< relref "eindonallan.md" >}}), and north to
-[Greade]({{< relref "greade.md" >}}).
+Griffonpeak Mountains, east to the Forest of [Eindonallan]({{< relref
+"eindonallan.md" >}}), and north to [Greade]({{< relref "greade.md" >}}).
 
 Arlor's coronation as Emperor marks year 0 of the [Imperial Arlian
 Calendar]({{< relref "imperial-arlian-calendar.md" >}}).
@@ -69,9 +71,8 @@ militry eyes north to [Illyria]({{< relref "illyria.md" >}}) and [Greade]({{<
 relref "greade.md" >}}) once the damage done by the Orcs had faded. In the year
 562{{< ia >}}, Narin elite soldiers captured the fortress of [Nyrdall]({{<
 relref "nyrdall.md" >}}) on the north side of the Anandies Pass through the
-[Griffonpeak Mountains]({{< relref "griffonpeak-mountains.md" >}}). Using this
-fortress as a jumping-off point, Narin's armies began a five-year campaign to
-retake their former lands to the north.
+Griffonpeak Mountains. Using this fortress as a jumping-off point, Narin's
+armies began a five-year campaign to retake their former lands to the north.
 
 ##  The Fall 
 
@@ -94,9 +95,18 @@ times throughout history.
 
 ##  Emperor of Narin 
 
-{{% sidebar %}}
+The Emperor of Narin nominally has absolute power over the empire. The office
+or institution of the Emperor of Narin is often referred to as "The Dahlia
+Throne", after the famed imperial flower gardens and their use decorating the
+emperor's throne. The flower has come to symbolize the office, and appears on
+the personal crest of the emperor.
 
-#### Arlor and the Dragon
+Succession of the position of Emperor of Narin is not hereditary, rather, a new
+emperor is appointed by the Imperial Senate after the death or abdication of
+the previous emperor. The senate's choice of emperor then has to be approved by
+the Heirophant of the Church of Narin.
+
+{{% sidebar "Arlor and the Dragon" %}}
 
 There's a legend in Narin that Arlor took the power to unite the surrounding
 lands from the red dragon Nadarathir. Nadaranthir, the legend goes, had been
@@ -108,17 +118,6 @@ The red of the Imperial flag and state crests is a symbol of the Emperor's
 power, taken from a red dragon.
 
 {{% /sidebar %}}
-
-The Emperor of Narin nominally has absolute power over the empire. The office
-or institution of the Emperor of Narin is often referred to as "The Dahlia
-Throne", after the famed imperial flower gardens and their use decorating the
-emperor's throne. The flower has come to symbolize the office, and appears on
-the personal crest of the emperor.
-
-Succession of the position of Emperor of Narin is not hereditary, rather, a new
-emperor is appointed by the Imperial Senate after the death or abdication of
-the previous emperor. The senate's choice of emperor then has to be approved by
-the Heirophant of the Church of Narin.
 
 ##  Imperial Senate 
 

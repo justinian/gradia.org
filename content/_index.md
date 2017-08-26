@@ -1,12 +1,8 @@
 +++
-title = "Welcome"
-categories = []
-date = "Wed Jan 18 14:55:38 2012"
+title = "Gradia"
+description = "Gradia is a low-magic fantasy setting"
+thumbnail = "images/home_header.png"
 +++
-
-
-#  Gradia Wiki 
-{{< wrapimage src="/files/welcome/map.png"  align="right" width="300" >}}
 
 **Welcome to Gradia!** Please come in and look around! Here you'll find all
 kinds of information on the world of Gradia, her people, and their ways of

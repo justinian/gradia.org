@@ -10,14 +10,14 @@ width="400">](/files/hesta-lorimar/map-hestalorimar.png)
 #  Hesta'Lorimar 
 
 Hesta'Lorimar, in the old tongue once widely spoken in the West, means Jewels
-of the Tears of [Sea Queen]({{< relref "mari.md" >}}), who is the Ocean Vast.
-This scattered archipelago drifts south and west of the great Kingdom of
+of the Tears of [Sea Queen]({{< relref "sea-queen.md" >}}), who is the Ocean
+Vast.  This scattered archipelago drifts south and west of the great Kingdom of
 [Corin]({{< relref "corin.md" >}}), but its climate and terrain are widely
 different from those of their mainland neighbor. Winds from the southern
 [Cradle of Darkness]({{< relref "cradle-of-darkness.md" >}}), warmed by the
 ever-burning fires of that forsaken land, heat the islands in the summer, and
 in the winter, an air current from the northern [Jungles of Thoraksis]({{<
-relref "jungles-of-thoraksis.md" >}}) drifts down the coast, bringing even
+missing "jungles-of-thoraksis.md" >}}) drifts down the coast, bringing even
 warmer winds, and storms, banishing the cold in favor of warm rains.
 
 The terrain itself if rocky and mountainous, with many valleys and rivers

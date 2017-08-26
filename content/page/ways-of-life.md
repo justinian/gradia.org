@@ -11,7 +11,5 @@ together for trade standards, or though words of the gods, passed down over
 time.
 
 * [Imperial Arlian Calendar]({{< relref "imperial-arlian-calendar.md" >}})
-* [Government]({{< relref "government.md" >}})
 * [Religion]({{< relref "religion.md" >}})
 * [Metaphysics]({{< relref "metaphysics.md" >}})
-* [According To...]({{< relref "according-to.md" >}})
