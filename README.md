@@ -7,7 +7,7 @@ wiki, which we're in the process of cleaning up into a static site.
 [Gradia]: http://gradia.org
 [MoinMoin]: http://moinmo.in
 
-This site uses [Hugo][] for generation, and is based off of a [Boostrap][]
+This site uses [Hugo][] for generation, and is based off of a [Bootstrap][]
 theme for Hugo, [Beg][].
 
 [Hugo]: http://gohugo.io
