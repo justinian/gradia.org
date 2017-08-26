@@ -1,6 +1,6 @@
 +++
 title = "Gradia"
-description = "Gradia is a low-magic fantasy setting"
+description = "Gradia is a low-magic fantasy setting for tabletop role-playing games."
 thumbnail = "images/home_header.png"
 +++
 
