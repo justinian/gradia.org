@@ -1,4 +1,4 @@
-baseurl = "http://gradia.org/"
+baseurl = "https://static.gradia.org/"
 languageCode = "en-us"
 title = "Gradia"
 preserveTaxonomyNames = true
