@@ -1,7 +1,7 @@
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "NewsArticle",
+    "@type": "CreativeWork",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id":"{{ .Site.BaseURL }}"
@@ -15,16 +15,36 @@
     },
     "datePublished": "{{ .Date.Format "2006-01-02T15:04:05JST" }}",
     "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}",
+    {{ with .Params.authors }}
+    "author": [
+    {{ with first 1 . }}
+    {{ range . }}
+      {
+        "@type": "Person",
+        "name": "{{ . }}"
+      }
+    {{ end }}
+    {{ end }}
+    {{ with after 1 . }}
+    {{ range . }}
+      , {
+        "@type": "Person",
+        "name": "{{ . }}"
+      }
+    {{ end }}
+    {{ end }}
+    {{ else }}
     "author": {
       "@type": "Person",
-      "name": "{{ .Site.Title }}"
+      "name": "Justin C. Miller"
     },
+    {{ end }}
     "publisher": {
       "@type": "Organization",
       "name": "{{ .Site.Title }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ .Site.BaseURL }}images/logo.png",
+        "url": "{{ .Site.BaseURL }}images/default.png",
         "width": 600,
         "height": 60
       }
