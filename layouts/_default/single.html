@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+  {{ partial "header.html" . }}
+  {{ partial "tags.html" . }}
+  <div>
+    {{ .Content }}
+  </div>
+
+{{ end }}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+  {{ partial "header.html" . }}
+  {{ .Content }}
+
+  <ul>
+    {{ range .Pages.ByTitle }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+
+{{ end }}
