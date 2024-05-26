@@ -1,5 +1,5 @@
 {{ $basename := (default (.Page.LinkTitle) (.Get 0)) | urlize }}
-{{ $path := add "/maps/" $basename ".jpg" }}
+{{ $path := add "/maps/" $basename ".png" }}
 {{ with resources.GetMatch $path -}}
   {{- with .Process "webp" -}}
   <a href="{{ .RelPermalink }}">
