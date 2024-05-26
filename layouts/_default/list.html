@@ -2,12 +2,13 @@
   {{ partial "header.html" . }}
   {{ .Content }}
 
-  <ul>
+  <table class="listpage-table">
     {{ range .Pages.ByTitle }}
-      <li>
-         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
+      <tr>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{- with .Description }}{{ .}}{{ end }}</td>
+      </tr>
     {{ end }}
-  </ul>
+  </table>
 
 {{ end }}

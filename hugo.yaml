@@ -2,26 +2,6 @@ baseURL: 'https://gradia.org/'
 languageCode: 'en-us'
 title: 'Gradia'
 
-disablePathToLower: true
-capitalizeListTitles: false
-copyright: "&copy; 2000-2024 Justin C. Miller"
-
-## enableGitInfo = true
-
-params:
-  schema: true
-  twittercards: true
-  opengraph: true
-
-markup:
-  goldmark:
-    extensions:
-      extras:
-        subscript:
-          enable: true
-        superscript:
-          enable: true
-
 menu:
   main:
     - name: About
@@ -33,3 +13,23 @@ menu:
     - name: Categories
       pageRef: /categories
       weight: 3
+
+disablePathToLower: true
+capitalizeListTitles: false
+copyright: "&copy; 2000-2024 Justin C. Miller"
+enableGitInfo: true
+
+markup:
+  goldmark:
+    extensions:
+      extras:
+        subscript:
+          enable: true
+        superscript:
+          enable: true
+
+frontmatter:
+  date:
+    - :git
+  title:
+    - '{{ replace .File.ContentBaseName "-" " " | title }}'

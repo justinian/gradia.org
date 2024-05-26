@@ -83,14 +83,34 @@ img {
   border-radius: 0.2rem;
 }
 
+blockquote {
+  border-left: 5px solid var(--fg-light-trans);
+  margin: 1.0em 10px;
+  padding: 0 1em;
+  p {
+    font-style: italic;
+  }
+}
+
 table {
   border-collapse: collapse;
   margin: auto;
 }
 
+.listpage-table {
+    margin: 0;
+}
+
+.listpage-table td {
+    padding-right: 2rem;
+}
+
 td, th {
-  border: 0.1rem solid gray;
   padding: 0.3rem 0.5rem;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc5;
 }
 
 nav ul {
@@ -135,7 +155,7 @@ header {
 }
 
 .tags-box {
-  float: left;
+  float: right;
   border: 2px solid var(--bg-dark);
   border-radius: 10px;
   margin: 1rem 0.5rem;
@@ -164,11 +184,25 @@ header {
   }
 }
 
+.lastmod {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    text-align: right;
+    font-size: small;
+}
+
 footer {
-  text-align: center;
+  text-align: right;
+  font-size: small;
   margin: 0.5rem 0;
   color: var(--fg-light);
   a {
     color: var(--fg-lightest);
   }
+}
+
+.mapimage {
+    float: left;
+    width: 50%;
 }

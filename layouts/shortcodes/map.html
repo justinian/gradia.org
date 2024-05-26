@@ -1,0 +1,16 @@
+{{ $basename := (default (.Page.LinkTitle) (.Get 0)) | urlize }}
+{{ $path := add "/maps/" $basename ".jpg" }}
+{{ with resources.GetMatch $path -}}
+  {{- with .Process "webp" -}}
+  <a href="{{ .RelPermalink }}">
+  {{- end -}}
+  {{- with .Process "resize 600x webp" -}}
+    <img
+      class="mapimage"
+      src="{{ .RelPermalink }}"
+      width="{{ .Width }}">
+  {{- end -}}
+  </a>
+{{- else -}}
+  {{ errorf "Unable to get image %q" $path }}
+{{- end }}
