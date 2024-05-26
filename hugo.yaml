@@ -10,14 +10,14 @@ menu:
     - name: Tags
       pageRef: /tags
       weight: 2
-    - name: Categories
-      pageRef: /categories
-      weight: 3
 
 disablePathToLower: true
 capitalizeListTitles: false
 copyright: "&copy; 2000-2024 Justin C. Miller"
 enableGitInfo: true
+
+taxonomies:
+  tag: tags
 
 markup:
   goldmark:

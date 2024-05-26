@@ -161,25 +161,25 @@ header {
   margin: 1rem 0.5rem;
   font-size: 0.8em;
   padding: 0.25rem;
+}
 
-  ul {
-    list-style: none;
-    padding: 0 4px;
-    margin: 1px;
+ul.tags-list {
+  list-style: none;
+  padding: 0 4px;
+  margin: 1px;
 
-    li {
-      border-radius: 8px;
-      background-color: var(--fg-light-trans);
-      color: var(--bg-dark);
-      margin-top: 8px;
-      margin-bottom: 8px;
-      padding: 0 0.5em;
-      text-align: center;
-      font-weight: bold;
+  li {
+    border-radius: 8px;
+    background-color: var(--fg-light-trans);
+    color: var(--bg-dark);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 0 0.5em;
+    text-align: center;
+    font-weight: bold;
 
-      a {
-        text-decoration: none;
-      }
+    a {
+      text-decoration: none;
     }
   }
 }

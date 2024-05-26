@@ -9,7 +9,7 @@
   <div class="tags-box">
     {{ range $term := $term_list }}
       {{ if isset $.Params $term }}
-        <ul>
+        <ul class="tags-list">
           {{ range $.GetTerms $term }}
             <li>
               <a href="{{ .RelPermalink }}" rel="tag">{{ .LinkTitle }}</a>
