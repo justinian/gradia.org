@@ -1,7 +1,7 @@
 ---
 title: Eindonallan
 description: Secluded city-state home of the Einir
-tags: ['locations']
+tags: ['locations', 'cities']
 ---
 
 In a time before the age of humanity, Eindonallan was the capitol city of a

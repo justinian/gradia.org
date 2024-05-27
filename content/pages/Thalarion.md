@@ -1,7 +1,7 @@
 ---
 title: Thalarion
 description: The city of a thousand wonders
-tags: ['locations']
+tags: ['locations', 'cities']
 ---
 
 Thalarion is called “The City of A Thousand Wonders” by many who visit this

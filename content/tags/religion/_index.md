@@ -10,5 +10,4 @@ The people of the [Empire of Xar](/pages/Xar) worhsip their immortal living god-
 
 The [Einir](/pages/Einir) in [Eindonallan](/pages/Eindonallan) worship [Ysenenobeth, The Moon Queen](/pages/Essentialism#the-lady-of-the-moon) in her aspects of magic and wisdom as their highest deity.
 
-The [Alfir](/pages/Alfir) in [Alfheim](/pages/Alfheim) have their own pantheon, which is likely still influenced by Elementalism, but has never been explored much. I welcome your input!
-
+And of course, in the deep and dark places, many of the subterranean peoples worship [Anloeb](/pages/Anloeb), the dark queen that demands they renounce all other gods.
