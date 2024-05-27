@@ -16,6 +16,9 @@ capitalizeListTitles: false
 copyright: "&copy; 2000-2024 Justin C. Miller"
 enableGitInfo: true
 
+params:
+  github: https://github.com/justinian/gradia.org
+
 taxonomies:
   tag: tags
 

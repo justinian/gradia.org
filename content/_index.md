@@ -21,3 +21,27 @@ you shape the course of this land's history?
 # The world of Gradia
 
 {{< map "Western Gradia" >}}
+
+> The land of Gradia is massive, and no one map can hold its vastness. But there
+> are many stories of lands beyond the civilized world… Barbarian hordes, firey
+> mountains, eternal forests, and oceans of sand. Sit a while, and listen. I shall
+> spin you many tales of the greatest lands under the sky…
+>
+>    &mdash; Rogan Clearwater 
+
+The nations and locations of Gradia are a great place to start exploring the world.
+
+**[Check out the Locations list here](/tags/locations)!**
+
+
+# Meta
+
+All Gradia content is licensed under the [Creative Commons BY-NC-SA 4.0][cc]
+license. Reuse and remixing are encouraged for non-commercial purposes, with
+attribution.
+
+You can find the content that makes up this site [on GitHub][gh] - fork it or
+even contribute your changes back.
+
+[cc]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+[gh]: https://github.com/justinian/gradia.org

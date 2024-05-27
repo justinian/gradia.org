@@ -13,6 +13,11 @@
           <a href="{{ $url }}">{{ .Name }}</a>
         </li>
       {{ end }}
+      {{ with site.Params.github }}
+        <li>
+          <a href="{{ . }}"><img class="nav-icon" src="/images/github.svg"></a>
+        </li>
+      {{ end }}
     </ul>
   </div>
 </nav>

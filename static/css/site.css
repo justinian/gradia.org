@@ -158,6 +158,11 @@ nav ul li a {
   text-decoration: none;
 }
 
+.nav-icon {
+    margin-top: 2px;
+    margin-bottom: -2px;
+}
+
 .heading-underline {
   color: var(--fg-light-trans);
   margin-top: 0;
@@ -197,6 +202,24 @@ ul.tags-list {
     a {
       text-decoration: none;
     }
+  }
+}
+
+ul.related {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  font-size: 0.75em;
+  justify-content: center;
+
+  li {
+    text-align: left;
+    border: 1px solid var(--bg-dark);
+    border-radius: 8px;
+    width: 25%;
+    margin: 0 0 1em 1em;
+    padding: 0.5em 1em;
   }
 }
 
