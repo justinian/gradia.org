@@ -5,11 +5,14 @@ title: 'Gradia'
 menu:
   main:
     - name: Locations
-      pageRef: /tags/locations
+      pageRef: /tags/locations/
       weight: 1
     - name: Tags
-      pageRef: /tags
+      pageRef: /tags/
       weight: 2
+    - name: Index
+      pageRef: /pages/
+      weight: 3
 
 disablePathToLower: true
 capitalizeListTitles: false
