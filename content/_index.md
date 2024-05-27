@@ -18,7 +18,7 @@ adventures await those willing to look beyond the surface. Diverse cultures
 co-exist while nations rise and fall and vie for power around them. How will
 you shape the course of this land's history?
 
-# The world of Gradia
+# The World of Gradia
 
 {{< map "Western Gradia" >}}
 
@@ -31,7 +31,8 @@ you shape the course of this land's history?
 
 The nations and locations of Gradia are a great place to start exploring the world.
 
-**[Check out the Locations list here](/tags/locations)!**
+- **[Check out the Locations list here](/tags/locations)!**
+- **[An overivew of the history of the world](/pages/Timeline)**
 
 
 # Meta

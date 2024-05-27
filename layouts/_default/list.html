@@ -1,6 +1,9 @@
 {{ define "main" }}
   {{ partial "header.html" . }}
-  {{ .Content }}
+  {{ with .Content }}
+    {{ . }}
+    <hr class="heading-underline">
+  {{ end }}
 
   <table class="listpage-table">
     {{ range .Pages.ByTitle }}
