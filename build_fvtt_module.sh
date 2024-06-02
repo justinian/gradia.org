@@ -9,7 +9,7 @@ fi
 
 mkdir -p out/packs/
 
-python3 ./id_replacer.py public/fvtt/pages
+python3 ./id_replacer.py public/fvtt
 sed "s/__version__/${VERSION}/g" assets/fvtt/module.json > out/module.json
 
 env bun x @foundryvtt/foundryvtt-cli package pack \
