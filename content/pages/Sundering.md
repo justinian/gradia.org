@@ -1,6 +1,7 @@
 ---
 title: The Sundering
 linkTitle: Sundering
+description: The event that severed Gradia from the outer planes and dimmed magic in the world
 aliases:
   - Cosmology
 ---
