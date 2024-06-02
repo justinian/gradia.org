@@ -20,5 +20,5 @@ env bun x @foundryvtt/foundryvtt-cli package pack \
     --id gradia-org --type Module -n info \
     --in public/fvtt --out out/packs/ -v -r
 
-rm out/gradia-org.zip
+[[ -f out/gradia-org.zip ]] && rm out/gradia-org.zip
 cd out; zip -v -r gradia-org.zip module.json maps packs ui
