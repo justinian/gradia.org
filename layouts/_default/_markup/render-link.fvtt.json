@@ -7,7 +7,8 @@
 {{- else -}}
 {{- $dest := (.Page.Site.GetPage $u.Path) -}}
 {{- with $dest -}}
-@UUID[Compendium.gradia-org.info.JournalEntry.__linktitlehash__({{ $dest.LinkTitle }})]{{ "{" }}{{ $text }}{{ "}" }}
+{{- $t := (or (and (eq $dest.Kind "term") "Folder") "JournalEntry") -}}
+@UUID[Compendium.gradia-org.info.{{ $t }}.__linktitlehash__({{ $dest.LinkTitle }})]{{ "{" }}{{ $text }}{{ "}" }}
 {{- else -}}
 {{ $text }}
 {{- end -}}
