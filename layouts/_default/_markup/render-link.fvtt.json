@@ -1,0 +1,14 @@
+{{- $u := urls.Parse .Destination -}}
+{{- $text := .Text }}
+{{- if $u.IsAbs -}}
+<a href='{{ .Destination | safeURL }}'
+  {{- with .Title }} title='{{ . }}'{{ end -}}
+>{{ $text }}</a>
+{{- else -}}
+{{- $dest := (.Page.Site.GetPage $u.Path) -}}
+{{- with $dest -}}
+@UUID[Compendium.gradia-org.info.JournalEntry.__linktitlehash__({{ $dest.LinkTitle }})]{{ "{" }}{{ $text }}{{ "}" }}
+{{- else -}}
+{{ $text }}
+{{- end -}}
+{{- end -}}

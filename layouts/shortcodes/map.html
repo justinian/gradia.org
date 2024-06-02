@@ -2,13 +2,13 @@
 {{ $path := add "/maps/" $basename ".png" }}
 {{ with resources.GetMatch $path -}}
   {{- with .Process "webp" -}}
-  <a href="{{ .RelPermalink }}">
+  <a href='{{ .RelPermalink }}'>
   {{- end -}}
   {{- with .Process "resize 600x webp" -}}
     <img
-      class="mapimage"
-      src="{{ .RelPermalink }}"
-      width="{{ .Width }}">
+      class='mapimage'
+      src='{{ .RelPermalink }}'
+      width='{{ .Width }}'>
   {{- end -}}
   </a>
 {{- else -}}

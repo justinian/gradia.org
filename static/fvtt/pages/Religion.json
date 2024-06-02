@@ -1,0 +1,16 @@
+{
+    "name": "Religion",
+    "sorting": "a",
+    "folder": null,
+    "type": "JournalEntry",
+    "_id": "1dhgjTVUeHX1rYYk",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "coreVersion": "11.315",
+      "createdTime": 1717046646183,
+      "modifiedTime": 1717046646183
+    },
+    "_key": "!folders!1dhgjTVUeHX1rYYk"
+  }

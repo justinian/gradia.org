@@ -39,3 +39,30 @@ frontmatter:
     - :git
   title:
     - '{{ replace .File.ContentBaseName "-" " " | title }}'
+
+mediaTypes:
+  application/json:
+    suffixes:
+    - json
+
+outputFormats:
+  fvtt:
+    mediaType: application/json
+    notAlternative: true
+    path: fvtt
+    ugly: true
+
+outputs:
+  home:
+  - html
+  - fvtt
+  page:
+  - html
+  - fvtt
+  section:
+  - html
+  taxonomy:
+  - html
+  term:
+  - fvtt
+  - html

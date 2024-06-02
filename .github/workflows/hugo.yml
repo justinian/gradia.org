@@ -38,12 +38,10 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      - name: Install Unzip
-        run: sudo apt-get -y install unzip
       - name: Install Bun
         run: |
           wget -O ${{ runner.temp }}/bun.zip https://github.com/oven-sh/bun/releases/download/bun-v${BUN_VERSION}/bun-linux-x64.zip \
-          && sudo unzip -j bun.zip bun-linux-x64/bun -d /usr/local/bin/ && sudo chmod a+x /usr/local/bin/bun
+          && sudo unzip -j ${{ runner.temp }}bun.zip bun-linux-x64/bun -d /usr/local/bin/ && sudo chmod a+x /usr/local/bin/bun
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -60,7 +58,38 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
+      - name: Build FVTT Module
+        id: fvtt
+        run: ./build_fvtt_module.sh
+      - name: Create module release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.fvtt.outputs.version }}
+          release_name: Release ${{ steps.fvtt.outputs.version }}
+      - name: Upload module zip
+        id: upload-module
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./gradia-org.zip
+          asset_name: gradia-org.zip
+          asset_content_type: application/zip
+      - name: Upload module json
+        id: upload-manifest
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./module.json
+          asset_name: module.json
+          asset_content_type: application/json
+      - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
