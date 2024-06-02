@@ -1,7 +1,7 @@
 {
   "id": "gradia-org",
-  "title": "Gradia world jorunal entries",
-  "description": "System-agnostic journal entries for all pages from gradia.org, for easy reference.",
+  "title": "Gradia: Jorunal Entries",
+  "description": "The world of Gradia is a homebrew low(ish)-fantasy setting first started for D&D 3e in 2000. Since then it has grown organically as multiple DMs have run games in multiple systems set here. This module contains system-agnostic journal entries for all pages from gradia.org, for easy reference within Foundry.",
   "url": "https://github.com/justinian/gradia.org",
   "authors": [
     {
@@ -38,6 +38,13 @@
         "sorting": "a",
         "packs": ["info"],
         "color": "#5b7ffd"
+    }
+  ],
+  "media": [
+    {
+        "type": "setup",
+        "url": "modules/gradia-org/ui/setup.webp",
+        "thumbnail": "modules/gradia-org/ui/setup.webp"
     }
   ]
 }
