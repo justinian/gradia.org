@@ -92,6 +92,7 @@ main p:first-child::first-letter {
   padding-top: 8px;
   padding-right: 3px;
   padding-left: 3px;
+  line-height: 0.5;
 }
 
 img {
