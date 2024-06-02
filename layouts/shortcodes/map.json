@@ -1,4 +1,5 @@
-{{ $basename := (default (.Page.LinkTitle) (.Get 0)) | urlize }}
+{{ if eq (default "fvtt" (.Get "only")) "fvtt" }}
+{{ $basename := (default (.Page.LinkTitle) (.Get "name")) | urlize }}
 {{ $path := add "/maps/" $basename ".png" }}
 {{ with resources.GetMatch $path -}}
   {{- with .Process "webp" -}}
@@ -9,4 +10,5 @@
   {{- end -}}
 {{- else -}}
   {{ errorf "Unable to get image %q" $path }}
+{{- end }}
 {{- end }}
