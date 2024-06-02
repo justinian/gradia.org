@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
 VERSION=$(date +'%y.%j.%H%M')
-echo "::set-output name=version::${VERSION}"
+echo "Version is ${VERSION}"
+
+if [ -f "${GITHUB_OUTPUT}" ]; then
+    echo "version=${VERSION}" >> "${GITHUB_OUTPUT}"
+fi
 
 mkdir -p packs/
 
