@@ -81,6 +81,11 @@ a.external::after {
 
 p {
     margin-top: 0.5em;
+    line-height: 1.6;
+}
+
+sub {
+    font-size: 0.6em;
 }
 
 main p:first-child::first-letter {
