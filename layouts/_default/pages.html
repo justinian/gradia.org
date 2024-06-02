@@ -6,12 +6,12 @@
 
   <ul class="index">
     {{ $lastletter := "" }}
-    {{ range .Pages.ByTitle }}
-      {{ if ne $lastletter (first 1 .Title) }}
-        {{ $lastletter = (first 1 .Title) }}
+    {{ range .Pages.ByLinkTitle }}
+      {{ if ne $lastletter (first 1 .LinkTitle) }}
+        {{ $lastletter = (first 1 .LinkTitle) }}
         <li><h1>{{ $lastletter }}</h1></li>
       {{ end }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
     {{ end }}
   </table>
 

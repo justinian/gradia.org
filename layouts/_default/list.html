@@ -6,9 +6,9 @@
   {{ end }}
 
   <table class="listpage-table">
-    {{ range .Pages.ByTitle }}
+    {{ range .Pages.ByLinkTitle }}
       <tr>
-        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></td>
         <td>{{- with .Description }}{{ .}}{{ end }}</td>
       </tr>
     {{ end }}
