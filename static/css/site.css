@@ -165,6 +165,8 @@ nav ul li a {
 
 .heading-underline {
   color: var(--fg-light-trans);
+  border: 0;
+  border-bottom: 1px solid var(--fg-light-trans);
   margin-top: 0;
 }
 
