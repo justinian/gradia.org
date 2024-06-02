@@ -1,0 +1,12 @@
+{{ $basename := (default (.Page.LinkTitle) (.Get 0)) | urlize }}
+{{ $path := add "/maps/" $basename ".png" }}
+{{ with resources.GetMatch $path -}}
+  {{- with .Process "resize 400x webp" -}}
+    <img
+      class='mapimage'
+      src='modules/gradia-org/{{ .RelPermalink }}'
+      width='{{ .Width }}'>
+  {{- end -}}
+{{- else -}}
+  {{ errorf "Unable to get image %q" $path }}
+{{- end }}
