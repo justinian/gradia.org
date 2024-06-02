@@ -12,6 +12,8 @@ magical nexus. A tall, spired city, Thalarion is the pinnacle of magic and
 engineering: it’s built in layers, suspended over each other and the wetlands
 below.
 
+{{< map >}}
+
 In the vast expanse of this city can be found Gradia’s greatest sages,
 philosophers, wizards, and all manner of other eccentric thinkers. The city
 itself is a sort of magocratic republic; the most highly-regarded mages hold

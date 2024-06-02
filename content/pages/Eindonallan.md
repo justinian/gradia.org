@@ -10,6 +10,8 @@ claimed lands for themselves, Eindonallan grew in influence. Other peoples
 sought out the Einir for their wisdom, or attempted to curry favor with
 Eindonallan as a sign of status among other nations.
 
+{{< map "Illyria" >}}
+
 After [The Sundering](/pages/Sundering), the power of the Einir waned, and with
 their remaining magicks they secluded themselves and hid their city from
 outsiders. The great kingdom became a mere city-state, all but forgotten from

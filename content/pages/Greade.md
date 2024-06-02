@@ -16,3 +16,4 @@ however, as Greade secretly aided [Illyria](/pages/Illyria) in their bid for
 independence 25 years ago. That alliance gained Greade its freedom - but not all
 Greadans are happy about that.
 
+{{< map "Illyria" >}}
