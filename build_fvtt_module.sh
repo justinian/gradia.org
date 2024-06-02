@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -o errexit
+
 VERSION=$(date +'%y.%j.%H%M')
 echo "Version is ${VERSION}"
 
