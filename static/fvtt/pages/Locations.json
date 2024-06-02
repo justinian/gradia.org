@@ -3,7 +3,7 @@
     "sorting": "a",
     "folder": null,
     "type": "JournalEntry",
-    "_id": "__linktitlehash__(Locations)",
+    "_id": "__linktitlehash__(locations)",
     "sort": 0,
     "color": null,
     "flags": {},
@@ -12,5 +12,5 @@
       "createdTime": 1717046646183,
       "modifiedTime": 1717046646183
     },
-    "_key": "!folders!__linktitlehash__(Locations)"
+    "_key": "!folders!__linktitlehash__(locations)"
   }

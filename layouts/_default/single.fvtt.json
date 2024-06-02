@@ -37,7 +37,7 @@
   {{- with $tag }}
   "folder": "__linktitlehash__({{ $tag.LinkTitle }})",
   {{- else }}
-  "folder": "__linktitlehash__(Other)",
+  "folder": "__linktitlehash__(other)",
   {{- end }}
   "sort": 0,
   "ownership": {
