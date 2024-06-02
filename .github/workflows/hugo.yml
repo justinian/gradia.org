@@ -41,7 +41,7 @@ jobs:
       - name: Install Bun
         run: |
           wget -O ${{ runner.temp }}/bun.zip https://github.com/oven-sh/bun/releases/download/bun-v${BUN_VERSION}/bun-linux-x64.zip \
-          && sudo unzip -j ${{ runner.temp }}bun.zip bun-linux-x64/bun -d /usr/local/bin/ && sudo chmod a+x /usr/local/bin/bun
+          && sudo unzip -j ${{ runner.temp }}/bun.zip bun-linux-x64/bun -d /usr/local/bin/ && sudo chmod a+x /usr/local/bin/bun
       - name: Checkout
         uses: actions/checkout@v4
         with:
