@@ -2,6 +2,8 @@
 title: "Welcome to Gradia!"
 ---
 
+{{< map "Western Gradia" >}}
+
 Gradia is a homebrew setting for fantasy role-playing games that started with
 the release of _Dungeons & Dragons 3rd Edition_ in 2000, as a simple map of two
 nations, [Narin](/pages/Narin) and [Corin](/pages/Corin). Gradia has grown
@@ -20,8 +22,6 @@ you shape the course of this land's history?
 
 # The World of Gradia
 
-{{< map "Western Gradia" >}}
-
 > The land of Gradia is massive, and no one map can hold its vastness. But there
 > are many stories of lands beyond the civilized world… Barbarian hordes, firey
 > mountains, eternal forests, and oceans of sand. Sit a while, and listen. I shall
@@ -29,11 +29,11 @@ you shape the course of this land's history?
 >
 >    &mdash; Rogan Clearwater 
 
-The nations and locations of Gradia are a great place to start exploring the world.
 
-- **[Check out the Locations list here](/tags/locations)!**
-- **[An overivew of the history of the world](/pages/Timeline)**
+- **[Locations in Gradia](/tags/locations)**
+- **[Timeline of the world](/pages/Timeline)**
 
+{{< featured >}}
 
 # Meta
 
