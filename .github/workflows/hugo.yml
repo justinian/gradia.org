@@ -59,8 +59,8 @@ jobs:
           name: v${{ steps.fvtt.outputs.version }}
           make_latest: true
           files: |
-            gradia-org.zip
-            module.json
+            out/gradia-org.zip
+            out/module.json
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

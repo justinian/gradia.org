@@ -37,6 +37,15 @@ you shape the course of this land's history?
 
 # Meta
 
+All of this content is also available as a [Foundry][] module! To add it, go to the
+"Add-on Modules" tab of the Foundry setup screen and click the "Install Module"
+button. Then copy the manifest file URL below, and paste it into the "Manifest URL"
+text box at the bottom of the window and click Install!
+
+https://github.com/justinian/gradia.org/releases/latest/download/module.json
+
+[Foundry]: https://foundryvtt.com
+
 All Gradia content is licensed under the [Creative Commons BY-NC-SA 4.0][cc]
 license. Reuse and remixing are encouraged for non-commercial purposes, with
 attribution.

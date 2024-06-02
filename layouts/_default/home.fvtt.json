@@ -1,43 +1,48 @@
 {
-  "id": "gradia-org",
-  "title": "Gradia world jorunal entries",
-  "description": "System-agnostic journal entries for all pages from gradia.org, for easy reference.",
-  "url": "https://github.com/justinian/gradia.org",
-  "authors": [
+  "name": "{{ .LinkTitle }}",
+  "_id": "__linktitlehash__({{ .LinkTitle }})",
+  "pages": [
     {
-        "id": "justinian",
-        "name": "justinian",
-        "discord": "justinian130",
-        "url": "https://justinian.codes",
-        "email": "foundry@justin.cm"
+      "sort": 100000,
+      "name": "{{ .Title }}",
+      "type": "text",
+      "_id": "__linktitlehash__({{ .LinkTitle }}_1)",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "{{ replaceRE `\n` `` .Content | safeHTML }}"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "11.315",
+        "createdTime": {{ .PublishDate.Unix }},
+        "modifiedTime": {{ .Lastmod.Unix }}
+      },
+      "_key": "!journal.pages!__linktitlehash__({{ .LinkTitle }}).__linktitlehash__({{ .LinkTitle }}_1)"
     }
   ],
-  "version": "__version__",
-  "manifest": "https://github.com/justinian/gradia.org/releases/latest/download/module.json",
-  "download": "https://github.com/justinian/gradia.org/releases/download/v__version__/gradia-org.zip",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
   },
-  "packs": [
-    {
-        "name": "info",
-        "label": "Gradia World Info",
-        "path": "./packs/info",
-        "type": "JournalEntry",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-        },
-        "flags": {}
-    }
-  ],
-  "packFolders": [
-    {
-        "name": "Gradia",
-        "sorting": "a",
-        "packs": ["info"],
-        "color": "#5b7ffd"
-    }
-  ]
+  "flags": {},
+  "_stats": {
+    "coreVersion": "11.315",
+    "createdTime": {{ .PublishDate.Unix }},
+    "modifiedTime": {{ .Lastmod.Unix }}
+  },
+  "_key": "!journal!__linktitlehash__({{ .LinkTitle }})"
 }
