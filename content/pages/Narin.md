@@ -13,7 +13,7 @@ Narin has always been an enterprising and imperialistic country, and there have 
 
 # History
 
-The history of Narin is said to stretch back to the very dawn of human history. With abundant coastline in the west, and the [Rookspine Mountains](/pages/Rookspine Mountains) to the east, the land of Narin has been settled and worked by humans further back than history records.
+The history of Narin is said to stretch back to the very dawn of human history. With abundant coastline in the west, and the [Rookspine Mountains](/pages/Rookspine-Mountains) to the east, the land of Narin has been settled and worked by humans further back than history records.
 
 ## The First Empire
 
