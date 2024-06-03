@@ -12,7 +12,10 @@ frozen forests. It is said that their white cities and towers were once
 magnificent to behold, and that many ruins still are - should you survive a
 journey to see them.
 
+
 # Geography and Climate
+
+{{< map >}}
 
 Alfheim occupies the southeastern tip of the continent, though most of its
 inland borders are vague at best. Vast stretches of untouched taiga reach from
