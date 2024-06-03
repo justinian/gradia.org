@@ -6,6 +6,8 @@ tags: ['locations', 'cities']
 
 The Nauglimir are a string of [Kmekh](/pages/Kmekh) city states, built into the [Rookspine Mountains](/pages/Rookspine-Mountains), each ruled by a separate Kmekh king (or _Lim_).
 
+{{< map >}}
+
 - **Muir Kadak**, the city of stone is by far the largest of the Nauglimir. When
   outsiders speak of the Nauglimir, they often mean only Muir Kadak, and not the
   cities as a group.
