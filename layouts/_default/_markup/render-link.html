@@ -6,6 +6,7 @@
 {{- $url := or (and $valid .Destination) (.Page.Site.GetPage "missing").RelPermalink}}
 <a href="{{ $url | safeURL }}"
   {{- with .Title }} title="{{ . }}"{{ end -}}
+  {{- if not $valid }} class="missing" {{ end -}}
   {{- if $u.IsAbs }} rel="external" class="external"{{ end -}}
 >
   {{- with .Text | safeHTML }}{{ . }}{{ end -}}

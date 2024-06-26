@@ -64,6 +64,13 @@ main a {
   color: var(--fg-mid);
 }
 
+main a.missing::after {
+    content: " \22A0";
+    color: red;
+    font-size: 0.6em;
+    vertical-align: super;
+}
+
 main a:hover {
   color: var(--fg-light);
 }
