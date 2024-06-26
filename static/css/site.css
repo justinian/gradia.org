@@ -351,3 +351,8 @@ footer {
 .leaflet-tooltip-right:before {
     border: none !important;
 }
+
+.leaflet-container img.leaflet-tile {
+	/* See: https://github.com/Leaflet/Leaflet/issues/3575 */
+	mix-blend-mode: normal !important;
+}
