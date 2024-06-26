@@ -12,6 +12,7 @@ def handle_dir(srcdir, width, height, dest):
         for x in range(width):
             src = f"{srcdir}/{LETTERS[y]}{x+1}.png"
             dst = f"{dest}/0_{x}_-{width-y}.webp"
+            print(dst)
             im = Image.open(src).convert("RGB")
             im.save(dst, "webp")
 
