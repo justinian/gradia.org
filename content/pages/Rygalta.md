@@ -11,7 +11,7 @@ tags: ['locations']
 >
 >    &mdash; Archbishop Hershon of Narinth
 
-{{< map >}}
+{{< map target=1256,820 zoom=1.5 >}}
 
 Beyond the mountains of the [Nauglimir](/pages/Nauglimir), beyond the
 [Wildlands](/pages/Wildlands), beyond even the scorched savannahs of

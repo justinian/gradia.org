@@ -15,7 +15,7 @@ journey to see them.
 
 # Geography and Climate
 
-{{< map >}}
+{{< map target=358,800 zoom=1 >}}
 
 Alfheim occupies the southeastern tip of the continent, though most of its
 inland borders are vague at best. Vast stretches of untouched taiga reach from

@@ -1,18 +1,20 @@
 {{ if eq (default "html" (.Get "only")) "html" }}
-{{ $basename := (default (.Page.LinkTitle) (.Get "name")) | urlize }}
-{{ $path := add "/maps/" $basename ".png" }}
-{{ with resources.GetMatch $path -}}
-  {{- with .Process "webp" -}}
-  <a href='{{ .RelPermalink }}'>
-  {{- end -}}
-  {{- with .Process "resize 600x webp" -}}
-    <img
-      class='mapimage'
-      src='{{ .RelPermalink }}'
-      width='{{ .Width }}'>
-  {{- end -}}
-  </a>
-{{- else -}}
-  {{ errorf "Unable to get image %q" $path }}
-{{- end }}
-{{- end }}
+<div class="mapimage">
+<div Wlass="mapimage" id="leaflet-map"></div>
+</div>
+<script type="module">
+    import setupMap from '/js/map.js';
+    const mapdiv = document.getElementById('leaflet-map');
+    {{ with (.Get "target") -}}
+    const target = {{ split . "," }};
+    {{ else -}}
+    const target = undefined;
+    {{ end -}}
+    {{ with (.Get "zoom") -}}
+    const zoom = {{ . }};
+    {{ else -}}
+    const zoom = 0;
+    {{ end -}}
+    setupMap(mapdiv, target, zoom);
+</script>
+{{ end }}

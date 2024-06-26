@@ -13,7 +13,7 @@ become the Kingdom of Corin. Small fiefdoms eventually sprung up from
 agricultural and fishing settlements, becoming a loose-knit whole that led to a
 history of very republican Corin sovereignty.
 
-{{< map >}}
+{{< map target=584,435 zoom=1 >}}
 
 Corin shares a long land border in the northwest with the Empire of Narin, and
 has been conquered twice by Narin throughout its history. Currently Corin is

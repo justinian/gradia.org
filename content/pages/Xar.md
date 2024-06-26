@@ -9,7 +9,7 @@ The Divine Empire of Xar (Kado Tezu Xara) is an enigma to those not born into
 it. The immortal god-queen Xar demands strict obedience from her citizens, and
 the borders are closed to outsiders.
 
-{{< map name="Rygalta" >}}
+{{< map target=1180,500 zoom=1 name="Rygalta" >}}
 
 What little outsiders do know comes as roundabout rumors, but always seems
 completely alien compared to life on the rest of the continent.  Those who have

@@ -4,8 +4,8 @@ title: 'Gradia'
 
 menu:
   main:
-    - name: Locations
-      pageRef: /tags/locations/
+    - name: Map
+      pageRef: /map/
       weight: 1
     - name: Tags
       pageRef: /tags/

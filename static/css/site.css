@@ -55,6 +55,7 @@ main {
   flex-grow: 1;
   background: url('/images/parchment.jpg');
   background-repeat: repeat;
+  height: 100%;
 
   color: var(--fg-dark);
 }
@@ -271,6 +272,82 @@ footer {
 }
 
 .mapimage {
-    float: right;
-    width: 50%;
+    width: 100%;
+    height: 600px;
+    padding: 5px;
+}
+
+@media (height <= 850px) {
+    .mapimage {
+        display: none;
+    }
+}
+
+#leaflet-map {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  img {
+    border-radius: 0;
+  }
+}
+
+.leaflet-container {
+  background: none !important;
+}
+
+.map-tooltip-states {
+  color: #DDF !important;
+  font-family: "Jaini Purva", system-ui !important;
+  font-size: 2.5em;
+  padding-top: 0 !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+  background: none !important;
+  text-shadow:
+    1px 0 3px black,
+    0 1px 3px black,
+    -1px 0 3px black,
+    0 -1px 3px black;
+}
+
+.map-tooltip-cities {
+  color: white !important;
+  font-family: "Jaini Purva", system-ui !important;
+  font-size: 2em;
+  padding-top: 0 !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+  background: none !important;
+  text-shadow:
+    1px 0 3px black,
+    0 1px 3px black,
+    -1px 0 3px black,
+    0 -1px 3px black;
+}
+
+.map-tooltip-towns {
+  color: white !important;
+  font-family: "Jaini Purva", system-ui !important;
+  font-size: 1.5em;
+  padding-top: 0 !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+  background: none !important;
+  text-shadow:
+    1px 0 3px black,
+    0 1px 3px black,
+    -1px 0 3px black,
+    0 -1px 3px black;
+}
+
+.leaflet-tooltip-top:before, 
+.leaflet-tooltip-bottom:before, 
+.leaflet-tooltip-left:before, 
+.leaflet-tooltip-right:before {
+    border: none !important;
 }

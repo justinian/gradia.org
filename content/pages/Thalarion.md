@@ -12,7 +12,7 @@ magical nexus. A tall, spired city, Thalarion is the pinnacle of magic and
 engineering: it’s built in layers, suspended over each other and the wetlands
 below.
 
-{{< map >}}
+{{< map target=1050,250 zoom=1 >}}
 
 In the vast expanse of this city can be found Gradia’s greatest sages,
 philosophers, wizards, and all manner of other eccentric thinkers. The city
@@ -34,7 +34,7 @@ its history, with the number being set by the council itself.
 - [Ahovira](/pages/Ahovira)
 - [Praxis](/pages/Praxis)
 
-# The Thalaric City-States
+# The Thalaric Protectorate
 
 The coastal lands to the south and east of Thalarion contain a number of smaller
 cities and burgs that are nominally independent, but fall under the protection
