@@ -24,10 +24,10 @@ of a man named [Rael-el](/pages/Rael-el).
 ## Operation at Var Gurum
 
 The Awoken Eye has found the [Kmekh](/pages/Kmekh) ruin of [Var
-Gurum](/pages/Var Gurum) in the mountains, south along the river from
+Gurum](/pages/Var-Gurum) in the mountains, south along the river from
 [Biraz](/pages/Biraz). They have built an encampment the size of a large town
 around the entrance. They believe the ruin may have been built over the tomb of
-[Malat-ir](/pages/Malat-ir). The [Lower Narbun Trading Co.](/pages/Lower Narbun
-Trading Co.) has been ferrying their stolen goods up the river on cogs from
-Biraz to build and supply the camp.
+[Malat-ir](/pages/Malat-ir). The [Lower Narbun Trading Co.](/pages/LNTC) has
+been ferrying their stolen goods up the river on cogs from Biraz to build and
+supply the camp.
 
