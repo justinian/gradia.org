@@ -274,7 +274,7 @@ footer {
 .mapimage {
     width: 100%;
     height: 600px;
-    padding: 5px;
+    clear: both;
 }
 
 @media (height <= 850px) {
