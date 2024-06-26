@@ -8,6 +8,8 @@ The Nauglimir are a string of [Kmekh](/pages/Kmekh) city states, built into the 
 
 {{< map target=727,740 zoom=1.5 >}}
 
+The six remaining cities of the Nauglimir are:
+
 - **Muir Kadak**, the city of stone is by far the largest of the Nauglimir. When
   outsiders speak of the Nauglimir, they often mean only Muir Kadak, and not the
   cities as a group.
