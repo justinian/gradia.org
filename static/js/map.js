@@ -50,7 +50,7 @@ export default async function setupMap(mapdiv, target, zoom) {
     if (target)
         map.setView(target, zoom || 0);
     else
-        map.setView([817,345], zoom || 1);
+        map.setView([817,345], zoom || 0);
 
     const groups = new Map();
     for (const desc of GROUPS) {
