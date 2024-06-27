@@ -6,6 +6,7 @@
     {"group": "cities", "name": "Nauglimir", "label": "Muir Kadak", "pos": [656,746]},
     {"group": "cities", "name": "Narinth", "pos": [769.75, 190]},
     {"group": "cities", "name": "Thalarion", "pos": [1150.5, 132]},
+    {"group": "cities", "name": "Xar", "pos": [1283.25,632.63]},
     {"group": "cities", "name": "Zarakz", "pos": [981.63,443.94]},
 
     {"group": "towns", "name": "Biraz", "pos": [982.31,422.21]},
