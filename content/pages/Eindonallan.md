@@ -22,10 +22,10 @@ their remaining magicks they secluded themselves and hid their city from
 outsiders. The great kingdom became a mere city-state, all but forgotten from
 the world. But after the long ages, darkness struck in 912~IA~ - the city was
 razed and many of its inhabitants killed as dark elves burned the forests to
-blot out the sun and attacked Eindonallan. The human town of Dol Kor in
-[Illyria](/pages/Illyria) took in many of the refugees, kindling a new bond
-between Humans and [Einir](/pages/Einir). For the past quarter century, the city
-has been rebuilding. While much of the splendor of the great city has been
-restored, the wounds are clearly still fresh - both in the city and for the
-Einir.
+blot out the sun and attacked Eindonallan. The human town of [Dol
+Kor](/pages/Dol-Kor) in [Illyria](/pages/Illyria) took in many of the refugees,
+kindling a new bond between Humans and [Einir](/pages/Einir). For the past
+quarter century, the city has been rebuilding. While much of the splendor of the
+great city has been restored, the wounds are clearly still fresh - both in the
+city and for the Einir.
 
