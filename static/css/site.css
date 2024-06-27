@@ -345,10 +345,6 @@ div[class^="map-tooltip-"], div[class*=" map-tooltip-"] {
   font-size: 2em;
 }
 
-.map-tooltip-nolink {
-    cursor: not-allowed !important;
-}
-
 .leaflet-tooltip-top:before, 
 .leaflet-tooltip-bottom:before, 
 .leaflet-tooltip-left:before, 

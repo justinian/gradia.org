@@ -66,11 +66,11 @@ export default async function setupMap(mapdiv, target, zoom) {
         };
         if (desc.icon)
             group.icon = L.icon({
-                iconUrl: desc.icon,
-                iconSize: [20, 20],
-                iconAnchor: [10, 10],
-                className: `map-icon-${desc.name}`,
-            });
+                    iconUrl: desc.icon,
+                    iconSize: [20, 20],
+                    iconAnchor: [10, 10],
+                    className: `map-icon-${desc.name}`,
+                });
         groups.set(desc.name, group);
     }
 
@@ -125,13 +125,13 @@ export default async function setupMap(mapdiv, target, zoom) {
                 direction: 'bottom',
                 className,
                 permanent: true,
-                interactive: true,
+                interactive: link,
             };
 
             const label = marker.label || marker.name;
 
             if (group.icon) {
-                let m = L.marker(marker.pos, {icon: group.icon})
+                let m = L.marker(marker.pos, {icon: group.icon, interactive: link})
                     .bindTooltip(label, tipOptions)
                     .addTo(group.group);
 
