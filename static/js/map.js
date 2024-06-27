@@ -1,8 +1,11 @@
-const MAXZOOM = 4;
+const DEV = document.location.search.includes("dev") 
+const MAXZOOM = (DEV && 4) || 3;
 const GROUPS = [
-    {name: "towns", minZoom: 1.5, maxZoom: MAXZOOM, radius: 4},
-    {name: "cities", minZoom: 1, maxZoom: MAXZOOM, radius: 7},
-    {name: "states", minZoom: -0.5, maxZoom: 2, radius: 0},
+    {name: "towns", minZoom: 1.5, maxZoom: MAXZOOM, icon: '/images/town_marker.svg'},
+    {name: "cities", minZoom: 0.5, maxZoom: MAXZOOM, icon: '/images/city_marker.svg'},
+    {name: "sites", minZoom: 1.5, maxZoom: MAXZOOM, icon: '/images/chevron_marker.svg'},
+    {name: "states", minZoom: -0.5, maxZoom: 2},
+    {name: "features", minZoom: 0, maxZoom: 2.5},
 ];
 
 function map_resizer(mapdiv) {
@@ -23,18 +26,19 @@ export default async function setupMap(mapdiv, target, zoom) {
     addEventListener('resize', resizer);
     resizer();
 
-    const icons = {
-        city: L.icon({ iconUrl: '/images/city_marker.svg', iconSize: [20, 20], iconAnchor: [10, 10], }),
-    };
-
     let map = L.map(mapdiv, {
         crs: L.CRS.Simple,
         maxBounds: bounds,
-        zoomSnap: 0.5,
+        zoomSnap: 0,
         zoomDelta: 0.5,
+        wheelPxPerZoomLevel: 70,
     });
 
-    L.tileLayer('/tiles/{z}_{x}_{y}.webp', {
+    let tile_url = '/tiles/{z}_{x}_{y}.webp';
+    if (DEV)
+        tile_url = '/tiles/dev/{z}_{x}_{y}.webp';
+
+    L.tileLayer(tile_url, {
         bounds: bounds,
         tileSize: L.point(mapWidth/xTiles, mapHeight/yTiles),
         minZoom: -0.5,
@@ -58,10 +62,15 @@ export default async function setupMap(mapdiv, target, zoom) {
             name: desc.name,
             minZoom: desc.minZoom,
             maxZoom: desc.maxZoom,
-            radius: desc.radius,
             group: L.layerGroup(),
         };
-        console.log("Adding group", group);
+        if (desc.icon)
+            group.icon = L.icon({
+                iconUrl: desc.icon,
+                iconSize: [20, 20],
+                iconAnchor: [10, 10],
+                className: `map-icon-${desc.name}`,
+            });
         groups.set(desc.name, group);
     }
 
@@ -77,11 +86,9 @@ export default async function setupMap(mapdiv, target, zoom) {
 
     const checkMarkers = (map) => {
         const z = map.getZoom();
-        console.log("Checking markers at zoom", z);
 
         groups.forEach(group => {
             const shouldHave = (z >= group.minZoom && z <= group.maxZoom);
-            console.log("   ", group, shouldHave);
             if (shouldHave) {
                 if (!map.hasLayer(group.group))
                     map.addLayer(group.group);
@@ -104,7 +111,10 @@ export default async function setupMap(mapdiv, target, zoom) {
                     return;
 
                 const onClick = () => {
-                    window.location.href = `/pages/${marker.name}`;
+                    const dest = marker.name
+                        .replaceAll(/[\s]/g, "-")
+                        .replaceAll(/['\\/_+,.]/g, "");
+                    window.location.href = `/pages/${dest}`;
                 };
 
                 const tipOptions = {
@@ -116,15 +126,8 @@ export default async function setupMap(mapdiv, target, zoom) {
 
                 const label = marker.label || marker.name;
 
-                if (group.radius) {
-                    let m = L.circleMarker(marker.pos, {
-                        radius: group.radius,
-                        color: "black",
-                        fill: true,
-                        fillColor: "white",
-                        fillOpacity: 1,
-                        weight: 1,
-                    })
+                if (group.icon) {
+                    let m = L.marker(marker.pos, {icon: group.icon})
                         .bindTooltip(label, tipOptions)
                         .on('click', onClick)
                         .addTo(group.group);

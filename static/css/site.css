@@ -304,11 +304,13 @@ footer {
   background: none !important;
 }
 
-.map-tooltip-states {
-  color: #DDF !important;
+div[class^="map-tooltip-"], div[class*=" map-tooltip-"] {
+  color: white;
   font-family: "Jaini Purva", system-ui !important;
-  font-size: 2.5em;
   padding-top: 0 !important;
+  white-space: pre !important;
+  line-height: 1em;
+  text-align: center;
 
   border: 0 !important;
   box-shadow: none !important;
@@ -318,38 +320,29 @@ footer {
     0 1px 3px black,
     -1px 0 3px black,
     0 -1px 3px black;
+}
+
+.map-tooltip-states {
+  color: #AAF !important;
+  font-size: 2.5em;
 }
 
 .map-tooltip-cities {
-  color: white !important;
-  font-family: "Jaini Purva", system-ui !important;
   font-size: 2em;
-  padding-top: 0 !important;
-
-  border: 0 !important;
-  box-shadow: none !important;
-  background: none !important;
-  text-shadow:
-    1px 0 3px black,
-    0 1px 3px black,
-    -1px 0 3px black,
-    0 -1px 3px black;
 }
 
 .map-tooltip-towns {
-  color: white !important;
-  font-family: "Jaini Purva", system-ui !important;
   font-size: 1.5em;
-  padding-top: 0 !important;
+}
 
-  border: 0 !important;
-  box-shadow: none !important;
-  background: none !important;
-  text-shadow:
-    1px 0 3px black,
-    0 1px 3px black,
-    -1px 0 3px black,
-    0 -1px 3px black;
+.map-tooltip-sites {
+  color: #FF8 !important;
+  font-size: 1.5em;
+}
+
+.map-tooltip-features {
+  color: #DDD !important;
+  font-size: 2em;
 }
 
 .leaflet-tooltip-top:before, 
