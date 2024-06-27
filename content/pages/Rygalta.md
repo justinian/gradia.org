@@ -2,6 +2,9 @@
 title: Rygalta
 description: Famed arid kingdom on the northern coast
 tags: ['locations']
+mapMarkers:
+- group: states
+  pos: 1259, 816
 ---
 
 > The sight of the sun glittering off the golden towers of the Shining City...

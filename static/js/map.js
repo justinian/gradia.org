@@ -102,46 +102,65 @@ export default async function setupMap(mapdiv, target, zoom) {
         checkMarkers(map);
     });
 
-    fetch('/mapmarkers.json')
-        .then( resp => resp.json() )
-        .then( markers => {
-            markers.forEach(marker => {
-                let group = groups.get(marker.group);
-                if (!group || !marker.pos)
-                    return;
+    const add_markers = (markers, link) => {
+        markers.forEach(marker => {
+            if (!marker) return;
 
-                const onClick = () => {
-                    const dest = marker.name
-                        .replaceAll(/[\s]/g, "-")
-                        .replaceAll(/['\\/_+,.]/g, "");
-                    window.location.href = `/pages/${dest}`;
-                };
+            let group = groups.get(marker.group);
+            if (!group || !marker.pos)
+                return;
 
-                const tipOptions = {
-                    direction: 'bottom',
-                    className: `map-tooltip-${group.name}`,
-                    permanent: true,
-                    interactive: true,
-                };
+            const onClick = () => {
+                const dest = marker.name
+                    .replaceAll(/[\s]/g, "-")
+                    .replaceAll(/['\\/_+,.]/g, "");
+                window.location.href = `/pages/${dest}`;
+            };
 
-                const label = marker.label || marker.name;
+            let className = `map-tooltip-${group.name}`;
+            if (!link)
+                className += ` map-tooltip-nolink`;
 
-                if (group.icon) {
-                    let m = L.marker(marker.pos, {icon: group.icon})
-                        .bindTooltip(label, tipOptions)
-                        .on('click', onClick)
-                        .addTo(group.group);
+            const tipOptions = {
+                direction: 'bottom',
+                className,
+                permanent: true,
+                interactive: true,
+            };
 
+            const label = marker.label || marker.name;
+
+            if (group.icon) {
+                let m = L.marker(marker.pos, {icon: group.icon})
+                    .bindTooltip(label, tipOptions)
+                    .addTo(group.group);
+
+                if (link) {
+                    m.on('click', onClick);
                     m.getTooltip().on('click', onClick);
-                } else {
-                    const t = L.tooltip(tipOptions)
-                        .setLatLng(marker.pos)
-                        .setContent(label)
-                        .on('click', onClick)
-                        .addTo(group.group);
                 }
+            } else {
+                const t = L.tooltip(tipOptions)
+                    .setLatLng(marker.pos)
+                    .setContent(label)
+                    .addTo(group.group);
 
-            });
-            checkMarkers(map);
+                if (link)
+                    t.on('click', onClick)
+            }
+
         });
+        checkMarkers(map);
+
+    };
+
+    // Real link markers
+    fetch('/data/mapmarkers.json')
+        .then( resp => resp.json() )
+        .then( markers => add_markers(markers, true) );
+
+    // Extra defined markers
+    fetch('/data/mapmarkers_extra.json')
+        .then( resp => resp.json() )
+        .then( markers => add_markers(markers, false) );
 }

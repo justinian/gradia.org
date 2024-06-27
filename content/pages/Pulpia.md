@@ -2,6 +2,9 @@
 title: Pulpia
 tags: ["cities"]
 description: Bustling trade town in northwestern Narin
+mapMarkers:
+- group: towns
+  pos: 895.56, 180.56
 ---
 
 Pulpia is a bustling trade town nestled among the hills and valleys that roughly define [Narin](/pages/Narin)'s northern border with [Uzan](/pages/Uzan). Situated along a major trade route, the town is a hub of commercial activity, with merchants, traders, and travelers passing through on a regular basis.

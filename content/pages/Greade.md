@@ -3,6 +3,9 @@ title: Dutchy of Greade
 linkTitle: Greade
 description: Industrious Dutchy on the Bay of Kell
 tags: ['locations']
+mapMarkers:
+- group: states
+  pos: 960, 436
 ---
 
 Nestled between the mountains and the Bay of Kell lies Greade. Home of stout,

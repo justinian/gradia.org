@@ -3,6 +3,9 @@ title: Kingdom of Corin
 linkTitle: Corin
 description: Verdant costal kingdom on the Lorimar Sea
 tags: ['locations']
+mapMarkers:
+- group: states
+  pos: 630, 413
 ---
 
 Corin is a costal kingdom that lies between the [Lorimar Sea](/pages/Lorimar-Sea)

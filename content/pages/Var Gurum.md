@@ -1,6 +1,9 @@
 ---
 title: Var Gurum
 description: Ruins of an ancient Kmekh outpost in the mountains of Greade
+mapMarkers:
+- group: sites
+  pos: 905,383.25
 ---
 
 Var Gurum is a long-ruined [Kmekh](/pages/Kmekh) outpost located in the

@@ -2,6 +2,9 @@
 title: Alhamad
 description: The shining city, capitol of Rygalta
 tags: ["cities"]
+mapMarkers:
+- group: cities
+  pos: 1318.5, 740.625
 ---
 
 Alhamad, the _Shining City_, was once a small trade town at the edge of the vast

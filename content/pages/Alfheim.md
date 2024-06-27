@@ -2,6 +2,9 @@
 title: Alfheim
 tags: ["locations"]
 description: Frigid land of the Alfir, far to the south
+mapMarkers:
+- group: states
+  pos: 393, 798
 ---
 
 Alfheim, land of the [Alfir](/pages/Alfir), is a land almost constantly

@@ -2,9 +2,33 @@
 title: Nauglimir
 description: Group of Kmekh city-states in the Rookspine Mountains
 tags: ['locations', 'cities']
+mapMarkers:
+- group: states
+  pos: 680,680
+- group: cities
+  label: Muir Kadak
+  pos: 656,746
+- group: towns
+  label: Muir Baltan
+  pos: 789,775.56
+- group: towns
+  label: Muir Duerga
+  pos: 857.56,769.25
+- group: towns
+  label: Muir Gudak
+  pos: 740.31,770.20
+- group: towns
+  label: Muir Karfash
+  pos: 695.5,718.56
+- group: towns
+  label: Muir Pakosh
+  pos: 630.56,622.94
+- group: towns
+  label: Muir Patagal
+  pos: 701.88,785.38
 ---
 
-The Nauglimir are a string of [Kmekh](/pages/Kmekh) city states, built into the [Rookspine Mountains](/pages/Rookspine-Mountains), each ruled by a separate Kmekh king (or _Lim_).
+The Nauglimir are a string of Kmekh(/pages/Kmekh) city states, built into the [Rookspine Mountains](/pages/Rookspine-Mountains), each ruled by a separate Kmekh king (or _Lim_).
 
 {{< map target=727,740 zoom=1.5 >}}
 
