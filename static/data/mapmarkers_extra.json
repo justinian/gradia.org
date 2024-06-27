@@ -6,6 +6,7 @@
     {"group": "towns", "name": "Biraz", "pos": [982.31,422.21]},
     {"group": "towns", "name": "Brax Landing", "pos": [499.5, 341.25]},
     {"group": "towns", "name": "Galen's Crossing", "pos": [438.44,399.5]},
+    {"group": "towns", "name": "Northill", "pos": [860.13,528.62]},
     {"group": "towns", "name": "Savorum", "pos": [832.63,219.38]},
     {"group": "towns", "name": "Traemon", "pos": [915.75, 80.19]},
     {"group": "towns", "name": "Tuzar", "pos": [1058.06,298.25]},
@@ -13,6 +14,7 @@
     {"group": "sites", "name": "Moon Pool of Tuzar", "label": "Moon Pool\nof Tuzar", "pos": [1049.13,314.19]},
     {"group": "sites", "name": "Priory of\nSt. Isaure", "pos": [879.63,538.25]},
     {"group": "sites", "name": "Ruins of\nArad-guul", "pos": [1304,680.63]},
+    {"group": "sites", "name": "Ruins of\nNyrdall", "pos": [813.92,449.44]},
 
     {"group": "features", "name": "Bay of Kell", "pos": [1080,405]},
     {"group": "features", "name": "Lorimar Sea", "pos": [590,180]},
