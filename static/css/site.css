@@ -1,5 +1,6 @@
 :root {
   --bg-dark: #191006;
+  --bg-light-trans: #72461b44;
 
   --fg-lightest: #e48b36;
   --fg-light: #72461b;
@@ -120,6 +121,14 @@ blockquote {
   p {
     font-style: italic;
   }
+}
+
+div.sidebar {
+    float: right;
+    width: 30%;
+    background-color: var(--bg-light-trans);
+    padding: 0 1.5em;
+    mask: radial-gradient(20px at 40px 40px, transparent 98%, black) -40px -40px;
 }
 
 table {
@@ -279,15 +288,16 @@ footer {
 }
 
 .mapimage {
-    width: 100%;
-    height: 600px;
+    width: 60%;
+    height: 500px;
+    float: right;
     clear: both;
 }
 
 .staticmap {
-    width: 50%;
+    width: 60%;
     float: left;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 @media (height <= 850px) {
