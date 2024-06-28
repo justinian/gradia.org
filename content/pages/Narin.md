@@ -43,7 +43,7 @@ By 464~IA~, Vilem had re-conquered Greade and Illyria as vassal states and had b
 
 ## The Decline
 
-Narin made no major attempts at expansion for the next 400 years. But in 910~IA~, despite declining imperial coffers, Empress Delphine II launched an unexpected attack on the Corin, and conquered the kingdom as a vassal state. However, with imperial armies and funds tied up in Corin, conflicts in Illyria and Greade gave way to open rebellion and eventually their independence in 915~IA~, as well as Corin the following year.
+Narin made no major attempts at expansion for the next 400 years. But in 910~IA~, despite declining imperial coffers, Empress Delphine II launched an unexpected attack on Corin, and conquered the kingdom as a vassal state. However, with imperial armies and funds tied up in Corin, conflicts in Illyria and Greade gave way to open rebellion and eventually their independence in 915~IA~, as well as Corin the following year.
 
 ## Narin Civil War
 

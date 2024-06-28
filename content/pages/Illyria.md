@@ -1,7 +1,7 @@
 ---
-title: Dutchy of Illyria
+title: Duchy of Illyria
 linkTitle: Illyria
-description: Landlocked Dutchy at the heart of the continent
+description: Landlocked Duchy at the heart of the continent
 tags: ['locations']
 mapMarkers:
 - group: cities

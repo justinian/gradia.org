@@ -7,39 +7,61 @@ mapMarkers:
   pos: 393, 798
 ---
 
-Alfheim, land of the [Alfir](/pages/Alfir), is a land almost constantly
-frozen under snow and ice. Only during the exceptionally long days of summer do
-parts of the kingdom thaw - but the winters are harsh, and the sun barely gets
-over the horizon. Somehow, the Alfir not only survive, but thrive in these
-frozen forests. It is said that their white cities and towers were once
-magnificent to behold, and that many ruins still are - should you survive a
-journey to see them.
-
+Alfheim, the land of the [Alfir](/pages/Alfir), is a realm of stark contrasts,
+where survival in its harsh environment has forged a resilient and enigmatic
+people. This southernmost land spends half the year blanketed in snow and ice,
+with winters so severe that the sun barely rises above the horizon. In contrast,
+the summers bring exceptionally long days and mild weather, transforming the
+frozen landscape into a vibrant and lush environment. Despite these extremes,
+the Alfir not only survive but thrive in their frozen forests. Their white
+cities and towers, now mostly in ruins, still hold a haunting beauty for those
+brave enough to seek them out.
 
 # Geography and Climate
 
-{{< map target=358,800 zoom=1 >}}
+{{< map target=358,800 zoom=0 >}}
 
-Alfheim occupies the southeastern tip of the continent, though most of its
-inland borders are vague at best. Vast stretches of untouched taiga reach from
-the frozen shores up to the foothills that roughly outline Alfheim's northern
-and eastern extents.
+## Vast and Untamed
 
-All is not completely frozen solid, however. Frigid rivers pool into Lake Sshan,
-the largest lake on the continent. And around Sshan, lie the ruins of the
-once-great Alfir empire.
+Alfheim occupies the southeastern tip of the continent, a region characterized
+by its vast stretches of untouched taiga. The inland borders of Alfheim are
+vaguely defined, extending from the frozen shores to the foothills that mark its
+northern and eastern extents. This wild and untamed land is dominated by dense
+forests, frozen rivers, and rugged terrain.
 
-Alfheim lies so far south that during the winter, the sun rises for just a few
-hours a day; few things survive the harsh cold without sunlight. In the summer,
-the days are eerily long - and while still cold, ice and snow lessen, and life
-awakens in the forests.
+## Lake Sshan
+
+One of Alfheim's most notable geographical features is Lake Sshan, the largest
+lake on the continent. This frigid body of water is surrounded by the ruins of
+the once-great Alfir empire, a testament to the grandeur that once was. The area
+around Lake Sshan, though harsh and unforgiving, holds a mystical allure,
+drawing adventurers and scholars alike to explore its icy depths and ancient
+ruins.
+
+## Seasonal Extremes
+
+Alfheim's location so far south results in dramatic seasonal changes. During
+winter, the sun rises for only a few hours each day, casting a pale light over
+the frozen landscape. The extreme cold and lack of sunlight make survival
+challenging, yet the Alfir have adapted remarkably well. In summer, the days
+stretch on endlessly, and the weather becomes mild. Ice and snow retreat to the
+higher elevations, and the forests come alive with a burst of activity and
+growth.
 
 # Culture
 
-Many scholars who have never actually visited Alfheim will tell you that the
-Alfir are nomadic, but this is not strictly true. While the great cities of
-their former empire are no more, there are still many permanent Alfiri
-settlements all over Alfheim. Many Alfir will leave their homes on long hunting
-expeditions during the summer months, however. These hunts, combined with the
-common practice of hiding their settlements from outsiders, often lead outsiders
-to underestimate the rich culture of the Alfir.
+Contrary to the assumptions of many scholars, the Alfir are not a purely nomadic
+people. While the great cities of their former empire have crumbled, many
+permanent Alfir settlements still dot the landscape of Alfheim. During the
+summer months, many Alfir embark on long hunting expeditions, a practice
+essential for their survival and deeply embedded in their culture. These hunts
+are not just a means of sustenance but also a time of bonding, storytelling, and
+the passing down of ancient traditions. The Alfir's tendency to hide their
+settlements and venture on these hunts has led many outsiders to underestimate
+the complexity and richness of their culture.
+
+The ruins of the Alfir's white cities and towers, scattered across Alfheim, are
+a poignant reminder of their once-magnificent civilization. These ruins, often
+shrouded in snow and ice, hold a mystical and haunting beauty. They serve as
+silent witnesses to the Alfir's storied past, drawing those who seek to uncover
+the secrets of this enigmatic people.
