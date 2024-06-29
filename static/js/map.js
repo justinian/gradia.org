@@ -15,7 +15,7 @@ function map_resizer(mapdiv) {
     };
 }
 
-export default async function setupMap(mapdiv, target, zoom) {
+export default async function setupMap(mapdiv, target, zoom, offset) {
     const xTiles = 10;
     const yTiles = 10;
     const mapWidth = 1000;
@@ -85,7 +85,7 @@ export default async function setupMap(mapdiv, target, zoom) {
     });
 
     const checkMarkers = (map) => {
-        const z = map.getZoom();
+        const z = map.getZoom() + (offset || 0);
 
         groups.forEach(group => {
             const shouldHave = (z >= group.minZoom && z <= group.maxZoom);

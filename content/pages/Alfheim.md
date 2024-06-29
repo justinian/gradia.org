@@ -19,7 +19,7 @@ brave enough to seek them out.
 
 # Geography and Climate
 
-{{< map target=358,800 zoom=0 >}}
+{{< map target=375,800 zoom=0.25 >}}
 
 ## Vast and Untamed
 

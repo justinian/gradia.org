@@ -20,7 +20,7 @@ elective monarchy.
 
 # Geography and Climate
 
-{{< map target=584,435 zoom=0.5 >}}
+{{< map target=584,375 zoom=0 offset=0.5 >}}
 
 Corin's coastal regions are characterized by rolling hills, fertile plains, and
 serene shores. To the northeast, the Rookspine Mountains rise majestically,

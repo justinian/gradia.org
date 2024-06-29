@@ -6,12 +6,12 @@ tags: ["locations"]
 mapMarkers:
 - group: states
   label: Empire of Narin
-  pos: 800, 236
+  pos: 930, 236
 ---
 
 Narin once controlled the greatest empire in all of Gradia. The lands claimed by the Narin Empire stretched at one time from the [Lorimar Sea](/pages/Lorimar-Sea) in the south as far north as [Thalarion](/pages/Thalarion), and from the sea to the west as far east as [Illyria](/pages/Illyria). The empire has grown and receded several times throughout history. In the current era, Narin may be on the decline - within the last two decades several vassal states have successfully gained their independence - first the Duchies of [Greade](/pages/Greade) and [Illyria](/pages/Illyria), and more recently the [Kingdom of Corin](/pages/Corin).
 
-{{< map target=800,224 zoom=1 >}}
+{{< map target=780,260 zoom=0 offset=1 >}}
 
 Narin has always been an enterprising and imperialistic country, and there have been several reigns of the Empire of Narin. The capital of Narin is [Narinth](/pages/Narinth), on the Ascram river.
 

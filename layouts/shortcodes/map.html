@@ -15,6 +15,11 @@
     {{ else -}}
     const zoom = 0;
     {{ end -}}
-    setupMap(mapdiv, target, zoom);
+    {{ with (.Get "offset") -}}
+    const offset = {{ . }};
+    {{ else -}}
+    const offset = 0;
+    {{ end -}}
+    setupMap(mapdiv, target, zoom, offset);
 </script>
 {{ end }}

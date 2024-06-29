@@ -16,7 +16,7 @@ resilience and enduring legacy of its inhabitants. Despite its tumultuous
 history, the city continues to be a beacon of Einir culture, wisdom, and arcane
 mastery.
 
-{{< map target=915,643 zoom=2 name="Illyria" >}}
+{{< map target=915,600 zoom=1.25 alt="Illyria" >}}
 
 # History
 

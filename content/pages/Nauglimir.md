@@ -30,7 +30,7 @@ mapMarkers:
 
 The Nauglimir are a string of Kmekh(/pages/Kmekh) city states, built into the [Rookspine Mountains](/pages/Rookspine-Mountains), each ruled by a separate Kmekh king (or _Lim_).
 
-{{< map target=727,740 zoom=1.5 >}}
+{{< map target=760,700 zoom=0.5 offset=1 >}}
 
 The six remaining cities of the Nauglimir are:
 

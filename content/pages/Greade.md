@@ -20,7 +20,7 @@ throughout the north, contributing to Greade's prosperity.
 
 # Geography and Climate
 
-{{< map target=944,428 zoom=1 name="Illyria" >}}
+{{< map target=950,428 zoom=0.95 offset=0.75 alt="Illyria" >}}
 
 The Duchy of Greade is uniquely positioned between the northernmost end of the
 [Rookspine Mountains](/pages/Rookspine-Mountains) to the south and the expansive
