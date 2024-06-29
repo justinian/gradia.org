@@ -1,0 +1,3 @@
+[submodule "themes/gradia"]
+	path = themes/gradia
+	url = git@github.com:justinian/gradia-hugo-theme

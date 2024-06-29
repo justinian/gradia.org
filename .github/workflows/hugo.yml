@@ -51,7 +51,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Build FVTT Module
         id: fvtt
-        run: ./build_fvtt_module.sh
+        run: ./themes/gradia/build_fvtt_module.sh
       - name: Create module release
         uses: softprops/action-gh-release@v2
         with:
