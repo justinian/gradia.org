@@ -18,7 +18,6 @@
 
     {"group": "features", "name": "Bay of Kell", "pos": [1080,405]},
     {"group": "features", "name": "Lorimar Sea", "pos": [590,180]},
-    {"group": "features", "name": "Rookspine\nMountains", "pos": [736,470]},
 
     {"group": "states", "name": "Horde of Orkol", "pos": [593, 714]},
     {"group": "states", "name": "Zagarka", "pos": [1110, 797]}
