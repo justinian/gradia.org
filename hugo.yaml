@@ -3,6 +3,10 @@ languageCode: 'en-us'
 title: 'Gradia'
 theme: 'gradia'
 
+params:
+  images:
+  - images/title-card.webp
+
 disablePathToLower: true
 capitalizeListTitles: false
 copyright: "&copy; 2000-2024 Justin C. Miller"
