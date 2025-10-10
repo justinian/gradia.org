@@ -1,0 +1,42 @@
+backend:
+  name: github
+  repo: justinian/gradia.org
+  branch: main
+  use_graphql: true
+
+media_folder: "statc/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: true
+    fields:
+      - title: "Title"
+        name: "title"
+        widget: "string"
+      - title: "Link Title"
+        name: "linkTitle"
+        widget: "string"
+        required: false
+      - title: "Description"
+        name: "description"
+        widget: "string"
+      - title: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+      - title: "Map Markers"
+        name: "mapMarkers"
+        widget: "list"
+        required: false
+        label_singular: "Marker"
+        fields:
+          - { label: "Type", name: "group", widget: "select", options: ["states", "cities", "towns", "sites", "features"] }
+          - { label: "Label", name: "label", widget: "string", required: false }
+          - { label: "Position", name: "pos", widget: "string" }
+      - title: "Body"
+        name: "body"
+        widget: "markdown"
+
