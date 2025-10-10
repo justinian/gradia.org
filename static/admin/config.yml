@@ -3,6 +3,7 @@ backend:
   repo: justinian/gradia.org
   branch: main
   use_graphql: true
+  base_url: https://gradia-cms-oauth.justinian.workers.dev/
 
 media_folder: "statc/images/uploads"
 public_folder: "/images/uploads"
