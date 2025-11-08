@@ -5,7 +5,7 @@ description: Industrious Duchy on the Bay of Kell
 tags: ['locations']
 mapMarkers:
 - group: states
-  pos: 960, 436
+  pos: 851, 467
 ---
 
 Nestled between the mountains and the [Bay of Kell](/pages/Bay-of-Kell) lies the

@@ -4,7 +4,7 @@ description: Coastal homelands of the seafaring Marshandi people
 tags: ['locations']
 mapMarkers:
 - group: states
-  pos: 520, 190
+  pos: 431, 294
 ---
 
 Hesta'Lorimar is the home and political center of a people known as the _Marshandi_, and their far-reaching merchant empire. The Marshandi culture has prized shipbuilding and naval longer than anyone can remember, and Marshandi can be found all over the known world because of it. Almost anywhere there is trade by sea, the Marshandi are a major influence. Some would argue that the same could be said for piracy.

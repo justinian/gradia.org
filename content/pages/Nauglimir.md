@@ -4,28 +4,28 @@ description: Group of Kmekh city-states in the Rookspine Mountains
 tags: ['locations', 'cities']
 mapMarkers:
 - group: states
-  pos: 680,680
+  pos: 597,717
 - group: cities
   label: Muir Kadak
-  pos: 656,746
+  pos: 587,755
 - group: towns
   label: Muir Baltan
-  pos: 789,775.56
+  pos: 702,785
 - group: sites
   label: Muir Duerga
-  pos: 857.56,769.25
+  pos: 748,790
 - group: towns
   label: Muir Gudak
-  pos: 740.31,770.20
+  pos: 668,772
 - group: towns
   label: Muir Karfash
-  pos: 695.5,718.56
+  pos: 628,734
 - group: towns
   label: Muir Pakosh
-  pos: 630.56,622.94
+  pos: 561,640
 - group: towns
   label: Muir Patagal
-  pos: 701.88,785.38
+  pos: 628,786
 ---
 
 The Nauglimir are a collection of [Kmekh](/pages/Kmekh) city-states, primarily

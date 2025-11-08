@@ -6,7 +6,7 @@ tags:
 mapMarkers:
 - group: "features"
   label: "Kvakhmir\nMountains"
-  pos: 750,720
+  pos: 680,732
 ---
 
 The Kvakhmir Mountain Range, known as _"Kvakhmir Yokh"_ in Kankhri, meaning "The

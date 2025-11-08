@@ -4,10 +4,10 @@ description: The city of a thousand wonders
 tags: ['locations', 'cities']
 mapMarkers:
 - group: cities
-  pos: 1150.5, 132
+  pos: 1033, 218
 - group: states
   label: "Thalaric\nProtectorate"
-  pos: 1190, 220
+  pos: 1034, 296
 ---
 
 Thalarion is called “The City of A Thousand Wonders” by many who visit this

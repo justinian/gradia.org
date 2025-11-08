@@ -4,7 +4,7 @@ description: Collection of Jarldoms in the forests far to the south
 tags: ['locations']
 mapMarkers:
 - group: states
-  pos: 377, 424
+  pos: 314, 485
 ---
 
 Tall and strong, Othalians often stand a head taller than most other humans. They are renowned for their skill at hunting and sailing, and for their prowess as warriors. Most of the Jarldoms of Othalia are dense boreal forests, blanketed with snow for much of the year. The southernmost territories are colder still, and even the sun does not spend much time there.

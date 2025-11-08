@@ -6,7 +6,7 @@ tags:
 mapMarkers:
 - group: "features"
   label: "Rookspine\nMountains"
-  pos: 736,470
+  pos: 639,526
 ---
 
 The Rookspine Mountains, the longest and tallest range in Gradia, stretch from

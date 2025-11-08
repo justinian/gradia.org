@@ -5,7 +5,7 @@ description: Verdant costal kingdom on the Lorimar Sea
 tags: ['locations']
 mapMarkers:
 - group: states
-  pos: 630, 413
+  pos: 529, 462
 ---
 
 Corin is a verdant coastal kingdom nestled between the [Lorimar

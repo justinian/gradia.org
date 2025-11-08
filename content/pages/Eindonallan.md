@@ -4,9 +4,9 @@ description: Secluded city-state home of the Einir
 tags: ['locations', 'cities']
 mapMarkers:
 - group: cities
-  pos: 911.1875, 641.5
+  pos: 810, 666
 - group: states
-  pos: 940, 641
+  pos: 824, 662
 ---
 
 Nestled in the heart of an ancient forest, Eindonallan is a secluded city-state,

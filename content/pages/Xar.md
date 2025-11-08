@@ -5,10 +5,10 @@ description: Northern empire worshipping a God-Queen
 tags: ['locations']
 mapMarkers:
 - group: cities
-  pos: 1283.25,632.63
+  pos: 1144, 657
 - group: states
   label: "Divine\nEmpire of Xar"
-  pos: 1249, 516
+  pos: 1080, 575
 ---
 
 The Divine Empire of Xar (Kado Tezu Xara) is an enigma to those not born into

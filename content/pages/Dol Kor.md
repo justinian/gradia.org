@@ -4,7 +4,7 @@ tags: ["cities"]
 description: Small Illyrian highway town bordering Eindonallan
 mapMarkers:
 - group: towns
-  pos: 894.25, 613.875
+  pos: 792, 635
 ---
 
 Dol Kor is a quaint borderland town strategically positioned on the highway

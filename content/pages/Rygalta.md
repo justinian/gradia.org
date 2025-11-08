@@ -4,7 +4,7 @@ description: Famed arid kingdom on the northern coast
 tags: ['locations']
 mapMarkers:
 - group: states
-  pos: 1259, 816
+  pos: 1108, 820
 ---
 
 > The sight of the sun glittering off the golden towers of the Shining City...
