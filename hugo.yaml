@@ -12,6 +12,14 @@ capitalizeListTitles: false
 copyright: "&copy; 2000-2024 Justin C. Miller"
 enableGitInfo: true
 
+markup:
+  goldmark:
+    extensions:
+      extras:
+        subscript:
+          enable: true
+      strikethrough: false
+
 outputs:
   home:
   - html
