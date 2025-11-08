@@ -2,7 +2,7 @@
 title: "Welcome to Gradia!"
 ---
 
-{{< map target=870,446 zoom=-0.5 only="html" >}}
+{{< map target=800,460 zoom=-0.5 only="html" >}}
 
 Gradia is a homebrew setting for fantasy role-playing games that started with
 the release of _Dungeons & Dragons 3rd Edition_ in 2000, as a simple map of two

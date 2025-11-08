@@ -37,7 +37,7 @@ while preserving their individual autonomy.
 
 # The Six Cities
 
-{{< map target=760,700 zoom=0.5 offset=1 >}}
+{{< map target=650,720 zoom=1 offset=1 >}}
 
 ## Muir Kadak
 
