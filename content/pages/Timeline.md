@@ -1,19 +1,24 @@
 ---
 title: Timeline
+linkTitle: ''
+description: Timeline of Events
+tags: []
+mapMarkers: []
 ---
 
 | Year | Event |
-| ---- | ----- |
-| -490~IA~ | [Malat-ir](/pages/Malat-ir) defeats [Naarel](/pages/Naarel), bringing about [The Sundering](/pages/Sundering) |
-| -364~IA~ | The Elemental War |
-| 0~IA~    | Arlor I crowned first Emperor of [Narin](/pages/Narin) |
-| 302~IA~  | Founding of [Galen's Crossing](/pages/Galens-Crossing) as [Narin](/pages/Narin) expands its borders southward |
-| 324~IA~  | Beginning of the [Age of War](/pages/Narin#the-age-of-war) era in Narin |
-| 464~IA~  | Beginning of the [Second Empire](/pages/Narin#the-second-empire) era in Narin |
-| 510~IA~  | The first [Awoken Eye](/pages/Awoken-Eye) cult in [Rygalta](/pages/Rygalta) |
-| 910~IA~  | Third Corin Campaign begins the [Decline](/pages/Narin#the-decline) era in Narin |
-| 912~IA~  | The [Saint of Flames](/pages/Saint-of-Flames) aids in the liberation of [Illyria](/pages/Illyria) and [Greade](/pages/Greade) |
-| 927~IA~  | Disagreement over beatification of the [Saint of Flames](/pages/Saint-of-Flames) causes the [Sun Schism](/pages/Sun-Schism) |
-| 938~IA~  | Narin emperor declares the [Illyrian Church](/pages/Illyrian-Church) illegal within Narin, starting the [Narin Civil War](/pages/Narin#narin-civil-war) |
-| 943~IA~  | Murder of [Zhiatash](/pages/Zhiatash) and bombing of the Cathedral of the Moon in [Thalarion](/pages/Thalarion) |
-
+| --- | --- |
+| -490\~IA\~ | [Malat-ir](/pages/Malat-ir) defeats [Naarel](/pages/Naarel), bringing about [The Sundering](/pages/Sundering) |
+| -364\~IA\~ | The Elemental War |
+| 0\~IA\~ | Arlor I crowned first Emperor of [Narin](/pages/Narin) |
+| 302\~IA\~ | Founding of [Galen's Crossing](/pages/Galens-Crossing) as [Narin](/pages/Narin) expands its borders southward |
+| 324\~IA\~ | Beginning of the [Age of War](/pages/Narin#the-age-of-war) era in Narin |
+| 464\~IA\~ | Beginning of the [Second Empire](/pages/Narin#the-second-empire) era in Narin |
+| 510\~IA\~ | The first [Awoken Eye](/pages/Awoken-Eye) cult in [Rygalta](/pages/Rygalta) |
+|year ~IA\~ | The end of the Xar/Rygalta 100 years war |
+|year ~IA\~ | The end of the Xar/Rygalta 100 years war |
+| 910\~IA\~ | Third Corin Campaign begins the [Decline](/pages/Narin#the-decline) era in Narin |
+| 912\~IA\~ | The [Saint of Flames](/pages/Saint-of-Flames) aids in the liberation of [Illyria](/pages/Illyria) and [Greade](/pages/Greade) |
+| 927\~IA\~ | Disagreement over beatification of the [Saint of Flames](/pages/Saint-of-Flames) causes the [Sun Schism](/pages/Sun-Schism) |
+| 938\~IA\~ | Narin emperor declares the [Illyrian Church](/pages/Illyrian-Church) illegal within Narin, starting the [Narin Civil War](/pages/Narin#narin-civil-war) |
+| 943\~IA\~ | Murder of [Zhiatash](/pages/Zhiatash) and bombing of the Cathedral of the Moon in [Thalarion](/pages/Thalarion) |
